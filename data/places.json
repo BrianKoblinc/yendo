@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Centro Cultural Nueva Uriarte",
+    "lat": -34.5895446953542,
+    "lng": -58.4353638032431,
+    "icon": "ccnuevauriarte.jpeg",
+    "url": "https://livepass.com.ar/t/centro-cultural-nueva-uriarte"
+  },
+  {
+    "id": 2,
+    "name": "Cooperativa Cultural Qi",
+    "lat": -34.5974020416018,
+    "lng": -58.4463062609133,
+    "icon": "ccqi.jpeg",
+    "url": "https://www.passline.com/sitio/4052219-cooperativa-de-trabajo-cultural-qi-ltda"
+  },
+  {
+    "id": 3,
+    "name": "Club Cultural Matienzo",
+    "lat": -34.5972448097308,
+    "lng": -58.4483941166611,
+    "icon": "ccmatienzo.jpeg",
+    "url": "https://www.passline.com/sitio/ccmatienzo"
+  },
+  {
+    "id": 4,
+    "name": "Artlab",
+    "lat": -34.5860323795512,
+    "lng": -58.4463305320785,
+    "icon": "artlab.png",
+    "url": "https://artlabpro.net/agenda/"
+  },
+  {
+    "id": 5,
+    "name": "Otra Historia Club Cultural",
+    "lat": -34.5833025752509,
+    "lng": -58.4647401609138,
+    "icon": "otrahistoriacc.jpeg",
+    "url": "https://otrahistoria.com.ar/"
+  },
+  {
+    "id": 6,
+    "name": "La Quince Espacio Cultural",
+    "lat": -34.5977740054203,
+    "lng": -58.4411295897484,
+    "icon": "eclaquince.jpeg",
+    "url": "https://www.instagram.com/laquincecooperativacultural/"
+  },
+  {
+    "id": 7,
+    "name": "Maquinal Espacio Cultural",
+    "lat": -34.6054912360403,
+    "lng": -58.4114511032424,
+    "icon": "ecmaquinal.jpeg",
+    "url": "https://linktr.ee/maquinal?fbclid=PAZXh0bgNhZW0CMTEAAaZPHby4HOwnQ728l57Ia9ir0d5tdHbhUn34TnXM-BOWM2QQ-Y3vQRy-8ew_aem_9FXIm46AMSXOL2q7a3kltQ"
+  },
+  {
+    "id": 8,
+    "name": "JJ Circuito Cultural",
+    "lat": -34.6060131162556,
+    "lng": -58.4096097344456,
+    "icon": "ccjj.jpeg",
+    "url": "https://www.instagram.com/jjcircuitocultural/"
+  },
+  {
+    "id": 9,
+    "name": "Ciudad Cultural Konex",
+    "lat": -34.6065659463898,
+    "lng": -58.4105312856648,
+    "icon": "cckonex.png",
+    "url": "https://www.cckonex.org/agenda/"
+  },
+  {
+    "id": 10,
+    "name": "Centro Cultural Rojas",
+    "lat": -34.6046300103287,
+    "lng": -58.3959897628087,
+    "icon": "ccrojas.png",
+    "url": "https://www.instagram.com/elrojasuba/"
+  },
+  {
+    "id": 11,
+    "name": "Teatro Colon",
+    "lat": -34.6011198136413,
+    "lng": -58.3837526966742,
+    "icon": "tcolon.png",
+    "url": "https://www.instagram.com/teatrocolon/"
+  },
+  {
+    "id": 12,
+    "name": "Teatro San Martin",
+    "lat": -34.6042712726083,
+    "lng": -58.3884758719569,
+    "icon": "tsanmartin.jpg",
+    "url": "https://www.instagram.com/elsanmartinctba/"
+  },
+  {
+    "id": 13,
+    "name": "Centro Cultural San Martin",
+    "lat": -34.6053110976135,
+    "lng": -58.388497329621,
+    "icon": "ccsanmartin.png",
+    "url": "https://elculturalsanmartin.ar/eventos/"
+  },
+  {
+    "id": 14,
+    "name": "Centro Cultural Borges",
+    "lat": -34.5996594885032,
+    "lng": -58.3743839676602,
+    "icon": "ccborges.jpeg",
+    "url": "https://centroculturalborges.gob.ar/agenda/"
+  },
+  {
+    "id": 15,
+    "name": "Centro Cultural Kirchner",
+    "lat": -34.6036162188682,
+    "lng": -58.3697318036402,
+    "icon": "cck.jpg",
+    "url": "https://palaciolibertad.gob.ar/agenda/"
+  },
+  {
+    "id": 16,
+    "name": "Centro Cultural Paco Urondo",
+    "lat": -34.6052866035687,
+    "lng": -58.3708574431217,
+    "icon": "ccpacourondo.jpeg",
+    "url": "https://pacourondo.filo.uba.ar/eventos"
+  },
+  {
+    "id": 17,
+    "name": "Museo Moderno",
+    "lat": -34.6219928800684,
+    "lng": -58.3704659210329,
+    "icon": "mmoderno.png",
+    "url": "https://www.instagram.com/modernoba/"
+  },
+  {
+    "id": 18,
+    "name": "Museo de Arte Contemporaneo",
+    "lat": -34.6219090049458,
+    "lng": -58.3702111111964,
+    "icon": "macba.png",
+    "url": "https://www.instagram.com/museomacba/?hl=en"
+  },
+  {
+    "id": 19,
+    "name": "Usina del Arte",
+    "lat": -34.628619156477,
+    "lng": -58.3570091652088,
+    "icon": "usinadelarte.jpg",
+    "url": "https://www.instagram.com/usinadelarte/?hl=es"
+  },
+  {
+    "id": 20,
+    "name": "Museo de Arte Contemporáneo de La Boca",
+    "lat": -34.6340117866637,
+    "lng": -58.3599595032412,
+    "icon": "marco.png",
+    "url": "https://www.instagram.com/museomarcolaboca/"
+  },
+  {
+    "id": 21,
+    "name": "Museo Benito Quinquela Martin",
+    "lat": -34.6389918456769,
+    "lng": -58.3609920032411,
+    "icon": "mquinquelamartin.jpg",
+    "url": "https://buenosaires.gob.ar/educacion/gestion-cultural/museo-benito-quinquela-martin"
+  },
+  {
+    "id": 22,
+    "name": "Fundacion Proa",
+    "lat": -34.6396103999047,
+    "lng": -58.3618579744058,
+    "icon": "fproa.png",
+    "url": "https://www.instagram.com/fundacion_proa/"
+  },
+  {
+    "id": 23,
+    "name": "Museo de Arte Latinoamericano",
+    "lat": -34.5769068903472,
+    "lng": -58.4034033676612,
+    "icon": "malba.png",
+    "url": "https://www.malba.org.ar/agenda/on/2024/11/02/?rd=m"
+  },
+  {
+    "id": 24,
+    "name": "Museo de Bellas Artes",
+    "lat": -34.5840377250814,
+    "lng": -58.3929993742161,
+    "icon": "mnbellasartes.png",
+    "url": "https://www.instagram.com/bellasartesargentina/"
+  },
+  {
+    "id": 25,
+    "name": "Biblioteca Nacional Mariano Moreno",
+    "lat": -34.5844657693321,
+    "lng": -58.3980291214364,
+    "icon": "bnmarianomoreno.jpg",
+    "url": "https://www.bn.gov.ar/agenda-cultural"
+  },
+  {
+    "id": 26,
+    "name": "Museo Nacional de Arte Decorativo",
+    "lat": -34.5826813059802,
+    "lng": -58.4010862320787,
+    "icon": "mnad.jpeg",
+    "url": "https://www.instagram.com/museodecorativo/"
+  },
+  {
+    "id": 27,
+    "name": "Centro Cultural Recoleta",
+    "lat": -34.5865055728421,
+    "lng": -58.3916768032433,
+    "icon": "ccrecoleta.png",
+    "url": "https://www.instagram.com/elrecoleta/"
+  },
+  {
+    "id": 28,
+    "name": "Centro Cultural de la Ciencia",
+    "lat": -34.5828148728435,
+    "lng": -58.4290502032434,
+    "icon": "ccciencia.jpeg",
+    "url": "https://www.instagram.com/ccdelaciencia/?hl=en"
+  },
+  {
+    "id": 29,
+    "name": "La Casa de Teresa Israel",
+    "lat": -34.6019523728368,
+    "lng": -58.4223607474186,
+    "icon": "lacasadeteresa.jpeg",
+    "url": "https://www.instagram.com/lacasadeteresa/?hl=en"
+  },
+  {
+    "id": 30,
+    "name": "Feliza",
+    "lat": -34.5978150413112,
+    "lng": -58.4127938744077,
+    "icon": "ccfeliza.jpg",
+    "url": "https://www.instagram.com/felizarcoiris/?hl=en"
+  },
+  {
+    "id": 31,
+    "name": "Complejo Art Media",
+    "lat": -34.5909389393161,
+    "lng": -58.4481780153268,
+    "icon": "cartmedia.jpeg",
+    "url": "https://www.passline.com/sitio/ccomplejoartmedia"
+  },
+  {
+    "id": 32,
+    "name": "Centro Cultural Richards",
+    "lat": -34.5870639381844,
+    "lng": -58.4327176744079,
+    "icon": "ccrichards.jpg",
+    "url": "https://www.passline.com/sitio/centro-cultural-richards"
+  },
+  {
+    "id": 33,
+    "name": "La Casa del Arbol",
+    "lat": -34.5897869034305,
+    "lng": -58.4362297502702,
+    "icon": "lacasadelarbol.jpeg",
+    "url": "https://www.passline.com/sitio/3146512-el-arbol-cultural-sas"
+  },
+  {
+    "id": 34,
+    "name": "Nempla",
+    "lat": -34.5870945708471,
+    "lng": -58.4504002879022,
+    "icon": "nempla.png",
+    "url": "https://www.passline.com/sitio/nempla"
+  },
+  {
+    "id": 35,
+    "name": "La Tomada",
+    "lat": -34.5870228381931,
+    "lng": -58.4469610744081,
+    "icon": "latomada.png",
+    "url": "https://www.instagram.com/la.tomada/?hl=en"
+  },
+  {
+    "id": 36,
+    "name": "Espacio Cultural Bonpland",
+    "lat": -34.5835395389348,
+    "lng": -58.4380374167376,
+    "icon": "ecbondpland.png",
+    "url": "https://www.instagram.com/espacio.bonpland/?hl=en"
+  },
+  {
+    "id": 37,
+    "name": "Simona",
+    "lat": -34.5801281394375,
+    "lng": -58.4515564320786,
+    "icon": "ecsimona.png",
+    "url": "https://www.instagram.com/espaciosimona/?hl=en"
+  },
+  {
+    "id": 38,
+    "name": "Quetren Quetren",
+    "lat": -34.5566591880843,
+    "lng": -58.4522366079493,
+    "icon": "ccquetren.jpeg",
+    "url": "https://www.alternativateatral.com/espacio1808-que-tren-club-cultural"
+  },
+  {
+    "id": 39,
+    "name": "Centro Cultural de la Memoria Haroldo Conti",
+    "lat": -34.539963772859,
+    "lng": -58.4640032032451,
+    "icon": "ccconti.png",
+    "url": "conti.derhuman.jus.gov.ar/areas/agenda/actividades-v2.php"
+  },
+  {
+    "id": 40,
+    "name": "Cultural Moran",
+    "lat": -34.587300572842,
+    "lng": -58.4876264320785,
+    "icon": "cmoran.png",
+    "url": "https://www.passline.com/sitio/cultural-moran"
+  },
+  {
+    "id": 41,
+    "name": "Cafe Berlin",
+    "lat": -34.592896443187,
+    "lng": -58.5081382195877,
+    "icon": "cafeberlin.jpg",
+    "url": "https://livepass.com.ar/c/cafe-berlin"
+  },
+  {
+    "id": 42,
+    "name": "La Termomecanica",
+    "lat": -34.606452295278,
+    "lng": -58.4798152609129,
+    "icon": "termomecanica.jpg",
+    "url": "https://www.instagram.com/la.termomecanica/"
+  },
+  {
+    "id": 43,
+    "name": "Club Cultural Oceanario",
+    "lat": -34.6001735803485,
+    "lng": -58.4497617314742,
+    "icon": "ccoceanario.jpeg",
+    "url": "https://www.instagram.com/oceanario_club/?hl=en"
+  },
+  {
+    "id": 44,
+    "name": "Club Cultural La Minga",
+    "lat": -34.624969201468,
+    "lng": -58.4148135744064,
+    "icon": "cclaminga.png",
+    "url": "https://www.instagram.com/lamingacc/"
+  },
+  {
+    "id": 45,
+    "name": "Paramo Cultural",
+    "lat": -34.6249338747432,
+    "lng": -58.4214861214258,
+    "icon": "paramocultural.jpeg",
+    "url": "passline.com/sitio/6743864-cooperativa-de-trabajo-paramo-cultural-limitada"
+  },
+  {
+    "id": 46,
+    "name": "Club Deseo",
+    "lat": -34.5844548398959,
+    "lng": -58.4698356744081,
+    "icon": "clubdeseo.png",
+    "url": "linktr.ee/deseobsas"
+  },
+  {
+    "id": 47,
+    "name": "Centro Cultural Vuela el Pez",
+    "lat": -34.5955546887228,
+    "lng": -58.4276982676604,
+    "icon": "ccvuelaelpez.jpeg",
+    "url": "https://www.instagram.com/vuelaelpez/?hl=en"
+  },
+  {
+    "id": 48,
+    "name": "Centro Cultural El Surco",
+    "lat": -34.6229681882448,
+    "lng": -58.4161448339235,
+    "icon": "ccelsurco.jpeg",
+    "url": "https://www.instagram.com/ccelsurco/?hl=en"
+  },
+  {
+    "id": 49,
+    "name": "Centro Cultural 25 de Mayo",
+    "lat": -34.5762564034479,
+    "lng": -58.4835898214385,
+    "icon": "cc25demayo.png",
+    "url": "https://www.instagram.com/cc25demayo/"
+  },
+  {
+    "id": 50,
+    "name": "Club Social 911",
+    "lat": -34.5943909642046,
+    "lng": -58.4268537167373,
+    "icon": "csnueveonce.png",
+    "url": "https://www.instagram.com/clubsocial911/?hl=en"
+  },
+  {
+    "id": 51,
+    "name": "Fundacion Cazadores",
+    "lat": -34.5916536321651,
+    "lng": -58.4463166214346,
+    "icon": "fundacioncazadores.png",
+    "url": "https://www.instagram.com/fundacioncazadores/?hl=en"
+  },
+  {
+    "id": 52,
+    "name": "Museo Historico Nacional",
+    "lat": -34.6270092155801,
+    "lng": -58.3705838393878,
+    "icon": "mhistoriconacional.png",
+    "url": "https://www.instagram.com/mhnarg/?hl=es"
+  },
+  {
+    "id": 53,
+    "name": "Hasta Trilce",
+    "lat": -34.6130781728328,
+    "lng": -58.416615043725,
+    "icon": "hastatrilce.jpeg",
+    "url": "https://www.instagram.com/hastatrilce/?hl=es"
+  },
+  {
+    "id": 54,
+    "name": "Niceto Club",
+    "lat": -34.5872525616689,
+    "lng": -58.4388021152205,
+    "icon": "nicetoclub.png",
+    "url": "https://www.passline.com/sitio/nicetotickets"
+  },
+  {
+    "id": 55,
+    "name": "Beatflow",
+    "lat": -34.5878290844455,
+    "lng": -58.4393604845184,
+    "icon": "beatflow.png",
+    "url": "https://www.passline.com/sitio/632462-beatflow"
+  },
+  {
+    "id": 56,
+    "name": "Saldias",
+    "lat": -34.5743583814378,
+    "lng": -58.3986826223555,
+    "icon": "pcsaldias.jpeg",
+    "url": "https://www.instagram.com/saldiaspolocultural/?hl=es"
+  },
+  {
+    "id": 57,
+    "name": "Teatro Sarmiento",
+    "lat": -34.5795816397763,
+    "lng": -58.4189059750094,
+    "icon": "tsarmiento.png",
+    "url": "https://complejoteatral.gob.ar/agenda"
+  },
+  {
+    "id": 58,
+    "name": "Teatro Regio",
+    "lat": -34.5842049717683,
+    "lng": -58.4458554615171,
+    "icon": "tregio.jpeg",
+    "url": "https://complejoteatral.gob.ar/agenda"
+  },
+  {
+    "id": 59,
+    "name": "Teatro Flores",
+    "lat": null,
+    "lng": null,
+    "icon": null,
+    "url": "https://www.teatroflores.com/cartelera.php"
+  },
+  {
+    "id": 60,
+    "name": "Sala Leopoldo Lugones",
+    "lat": -34.6042712726083,
+    "lng": -58.3884758719569,
+    "icon": "tsanmartin.jpg",
+    "url": "https://www.instagram.com/sala.lugones/?hl=es"
+  }
+]

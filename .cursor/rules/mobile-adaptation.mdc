@@ -1,0 +1,104 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Mobile Adaptation Strategy
+
+## Progressive Web App (PWA) Features
+
+### Core PWA Requirements
+- **Service Worker**: Offline functionality and caching
+- **Web App Manifest**: App-like installation experience
+- **HTTPS**: Secure connection requirement
+- **Responsive Design**: Mobile-first approach
+
+### PWA Implementation
+```typescript
+// Service Worker for offline support
+const CACHE_NAME = 'cultural-events-v1';
+const urlsToCache = [
+  '/',
+  '/static/js/bundle.js',
+  '/static/css/main.css',
+  '/api/events'
+];
+
+// Web App Manifest
+{
+  "name": "Cultural Events",
+  "short_name": "Events",
+  "description": "Discover and manage cultural events",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+```
+
+## Mobile App Architecture
+
+### React Native Considerations
+- **Shared Business Logic**: Core services and utilities
+- **Platform-Specific UI**: Native components for each platform
+- **State Management**: Redux/MobX for cross-platform state
+- **Navigation**: React Navigation for mobile routing
+
+### Flutter Considerations
+- **Single Codebase**: Write once, run anywhere
+- **Performance**: Native compilation for both platforms
+- **UI Consistency**: Material Design and Cupertino widgets
+- **Hot Reload**: Fast development iteration
+
+## Mobile-Specific Features
+
+### Offline Capabilities
+- **Event Caching**: Store event data locally
+- **Offline Browsing**: View cached events without internet
+- **Sync on Reconnect**: Update data when online
+- **Offline Calendar**: Local calendar management
+
+### Mobile Optimizations
+- **Touch Interactions**: Large touch targets (44px minimum)
+- **Gesture Support**: Swipe, pinch, tap gestures
+- **Performance**: Optimized for mobile hardware
+- **Battery Efficiency**: Minimize background processing
+
+### Platform Integration
+- **Calendar Sync**: Native calendar integration
+- **Push Notifications**: Event reminders and updates
+- **Location Services**: GPS for nearby events
+- **Social Sharing**: Native sharing capabilities
+
+## Development Strategy
+
+### Phase 1: PWA Development
+1. Implement responsive web design
+2. Add service worker for offline support
+3. Create web app manifest
+4. Test PWA installation
+
+### Phase 2: Mobile App Planning
+1. Choose mobile framework (React Native/Flutter)
+2. Design mobile-specific UI/UX
+3. Plan API adaptations for mobile
+4. Set up mobile development environment
+
+### Phase 3: Mobile App Development
+1. Implement core mobile features
+2. Add platform-specific integrations
+3. Optimize for performance
+4. Test on both platforms
+
+## Code Sharing Strategy
+- **Shared Types**: TypeScript interfaces for data models
+- **Shared Services**: API calls and business logic
+- **Shared Utils**: Helper functions and constants
+- **Platform-Specific**: UI components and navigation

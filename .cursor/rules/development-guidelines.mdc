@@ -1,0 +1,209 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Development Guidelines
+
+## Code Standards
+
+### TypeScript Configuration
+```json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "es6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  }
+}
+```
+
+### Naming Conventions
+- **Files**: kebab-case (e.g., `event-card.tsx`)
+- **Components**: PascalCase (e.g., `EventCard`)
+- **Functions**: camelCase (e.g., `getEventById`)
+- **Constants**: UPPER_SNAKE_CASE (e.g., `API_BASE_URL`)
+- **Types/Interfaces**: PascalCase (e.g., `EventData`)
+
+### File Organization
+```
+src/
+├── components/
+│   ├── common/          # Reusable components
+│   ├── events/          # Event-specific components
+│   └── layout/          # Layout components
+├── pages/               # Route components
+├── services/            # API and business logic
+├── types/               # TypeScript definitions
+├── utils/               # Helper functions
+├── hooks/               # Custom React hooks
+├── constants/           # App constants
+└── styles/              # Global styles
+```
+
+## Component Guidelines
+
+### Functional Components
+```typescript
+import React from 'react';
+import { Event } from '../types/event';
+
+interface EventCardProps {
+  event: Event;
+  onSelect?: (event: Event) => void;
+  className?: string;
+}
+
+export const EventCard: React.FC<EventCardProps> = ({
+  event,
+  onSelect,
+  className
+}) => {
+  const handleClick = () => {
+    onSelect?.(event);
+  };
+
+  return (
+    <div className={`event-card ${className || ''}`} onClick={handleClick}>
+      {/* Component content */}
+    </div>
+  );
+};
+```
+
+### Custom Hooks
+```typescript
+import { useState, useEffect } from 'react';
+import { Event } from '../types/event';
+import { EventService } from '../services/event-service';
+
+export const useEvents = (filters: EventFilters) => {
+  const [events, setEvents] = useState<Event[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        setLoading(true);
+        const data = await EventService.getEvents(filters);
+        setEvents(data);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Unknown error');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchEvents();
+  }, [filters]);
+
+  return { events, loading, error };
+};
+```
+
+## Testing Strategy
+
+### Unit Tests
+- **Components**: Test component rendering and interactions
+- **Services**: Test API calls and business logic
+- **Utils**: Test helper functions
+- **Hooks**: Test custom React hooks
+
+### Integration Tests
+- **API Integration**: Test service layer with mock API
+- **Component Integration**: Test component interactions
+- **User Flows**: Test complete user journeys
+
+### E2E Tests
+- **Critical Paths**: Event browsing, filtering, calendar integration
+- **Mobile Responsiveness**: Test on different screen sizes
+- **Accessibility**: Test with screen readers and keyboard navigation
+
+## Performance Guidelines
+
+### Code Splitting
+```typescript
+// Lazy load pages
+const EventDetail = React.lazy(() => import('../pages/EventDetail'));
+const UserProfile = React.lazy(() => import('../pages/UserProfile'));
+
+// Lazy load components
+const EventMap = React.lazy(() => import('../components/EventMap'));
+```
+
+### Memoization
+```typescript
+// Memoize expensive calculations
+const filteredEvents = useMemo(() => {
+  return events.filter(event => 
+    event.category === selectedCategory
+  );
+}, [events, selectedCategory]);
+
+// Memoize callbacks
+const handleEventSelect = useCallback((event: Event) => {
+  setSelectedEvent(event);
+}, []);
+```
+
+### Image Optimization
+- Use WebP format with fallbacks
+- Implement lazy loading for images
+- Provide multiple sizes for responsive images
+- Use proper alt text for accessibility
+
+## Error Handling
+
+### Error Boundaries
+```typescript
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    console.error('Error caught by boundary:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <ErrorFallback />;
+    }
+
+    return this.props.children;
+  }
+}
+```
+
+### API Error Handling
+```typescript
+const handleApiError = (error: unknown) => {
+  if (error instanceof NetworkError) {
+    return 'Network error. Please check your connection.';
+  }
+  
+  if (error instanceof ValidationError) {
+    return 'Invalid data provided.';
+  }
+  
+  return 'An unexpected error occurred.';
+};
+```

@@ -1,0 +1,13 @@
+{
+  "name": "Ejemplo Personalizado",
+  "description": "Plantilla de ejemplo para mostrar cómo crear plantillas personalizadas",
+  "preview": "templates/example-preview.png",
+  "styles": {
+    "headerStyle": "text-align: center; color: #2c3e50; margin-bottom: 20px; font-family: 'Georgia', serif; font-size: 28px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; border-bottom: 3px solid #e74c3c; padding-bottom: 10px;",
+    "tableStyle": "width: 100%; border-collapse: collapse; font-family: 'Georgia', serif; font-size: 12px; background: linear-gradient(135deg, #f8f9fa, #e9ecef);",
+    "thStyle": "border: 2px solid #34495e; padding: 12px; background: linear-gradient(135deg, #34495e, #2c3e50); color: white; text-align: center; font-weight: bold; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;",
+    "tdStyle": "border: 1px solid #bdc3c7; padding: 8px; height: 100px; vertical-align: top; background-color: #ffffff; transition: background-color 0.3s ease;",
+    "eventStyle": "font-size: 8px; margin-bottom: 2px; padding: 4px; background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; border-radius: 4px; line-height: 1.2; word-wrap: break-word; overflow-wrap: break-word; font-weight: bold; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); box-shadow: 0 2px 4px rgba(0,0,0,0.1);",
+    "dayNumberStyle": "font-weight: bold; margin-bottom: 6px; font-size: 14px; color: #2c3e50; text-align: center; background: linear-gradient(135deg, #ecf0f1, #bdc3c7); padding: 2px; border-radius: 3px; border: 1px solid #95a5a6;"
+  }
+} 

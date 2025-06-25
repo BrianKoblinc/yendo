@@ -1,0 +1,325 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Bootstrap Development Guidelines
+
+## Core Principles
+- Write clear, concise, and technical responses with precise Bootstrap examples
+- Utilize Bootstrap's components and utilities to streamline development and ensure responsiveness
+- Prioritize maintainability and readability; adhere to clean coding practices throughout HTML and CSS
+- Use descriptive class names and structure to promote clarity and collaboration among developers
+
+## Bootstrap Usage for Cultural Events Website
+
+### Grid System Implementation
+```html
+<!-- Main layout structure -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar for filters -->
+    <div class="col-lg-3 col-md-4 col-12">
+      <div class="filter-panel">
+        <!-- Filter components -->
+      </div>
+    </div>
+    
+    <!-- Main content area -->
+    <div class="col-lg-9 col-md-8 col-12">
+      <div class="events-grid">
+        <!-- Event cards -->
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+### Event Card Component
+```html
+<div class="card event-card h-100 shadow-sm">
+  <img src="event-image.jpg" class="card-img-top" alt="Event title">
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Event Title</h5>
+    <p class="card-text text-muted">Event description...</p>
+    <div class="mt-auto">
+      <div class="d-flex justify-content-between align-items-center">
+        <span class="badge bg-primary">Music</span>
+        <span class="text-success fw-bold">$25</span>
+      </div>
+      <button class="btn btn-outline-primary w-100 mt-2">Add to Calendar</button>
+    </div>
+  </div>
+</div>
+```
+
+### Filter Components
+```html
+<!-- Date Filter -->
+<div class="mb-3">
+  <label class="form-label">Date Range</label>
+  <div class="input-group">
+    <input type="date" class="form-control" aria-label="Start date">
+    <span class="input-group-text">to</span>
+    <input type="date" class="form-control" aria-label="End date">
+  </div>
+</div>
+
+<!-- Category Filter -->
+<div class="mb-3">
+  <label class="form-label">Event Category</label>
+  <select class="form-select" aria-label="Select event category">
+    <option value="">All Categories</option>
+    <option value="music">Music</option>
+    <option value="theater">Theater</option>
+    <option value="art">Art</option>
+  </select>
+</div>
+
+<!-- Price Range Slider -->
+<div class="mb-3">
+  <label class="form-label">Price Range</label>
+  <div class="d-flex gap-2">
+    <input type="number" class="form-control" placeholder="Min" aria-label="Minimum price">
+    <input type="number" class="form-control" placeholder="Max" aria-label="Maximum price">
+  </div>
+</div>
+```
+
+## Component Guidelines
+
+### Navigation Header
+```html
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Cultural Events</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calendar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Favorites</a>
+        </li>
+      </ul>
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search events...">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+```
+
+### Modal for Event Details
+```html
+<div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="eventModalLabel">Event Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="event-image.jpg" class="img-fluid rounded" alt="Event image">
+          </div>
+          <div class="col-md-6">
+            <h6>Event Details</h6>
+            <p class="text-muted">Date: <span class="fw-bold">March 15, 2024</span></p>
+            <p class="text-muted">Time: <span class="fw-bold">7:00 PM</span></p>
+            <p class="text-muted">Location: <span class="fw-bold">Theater Name</span></p>
+            <p class="text-muted">Price: <span class="fw-bold text-success">$25</span></p>
+          </div>
+        </div>
+        <div class="mt-3">
+          <p>Event description goes here...</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add to Calendar</button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## Form Validation and Error Handling
+
+### Bootstrap Form Validation
+```html
+<form class="needs-validation" novalidate>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" required>
+    <div class="invalid-feedback">
+      Please provide a valid email address.
+    </div>
+  </div>
+  
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" required>
+    <div class="invalid-feedback">
+      Please provide a password.
+    </div>
+  </div>
+  
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+```
+
+### Alert Messages
+```html
+<!-- Success Alert -->
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <i class="bi bi-check-circle me-2"></i>
+  Event successfully added to your calendar!
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<!-- Error Alert -->
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <i class="bi bi-exclamation-triangle me-2"></i>
+  Unable to add event to calendar. Please try again.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<!-- Info Alert -->
+<div class="alert alert-info" role="alert">
+  <i class="bi bi-info-circle me-2"></i>
+  Use the filters above to find events that match your interests.
+</div>
+```
+
+## Responsive Design Patterns
+
+### Mobile-First Approach
+```html
+<!-- Responsive grid for events -->
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+  <div class="col">
+    <div class="card event-card h-100">
+      <!-- Event card content -->
+    </div>
+  </div>
+</div>
+
+<!-- Responsive navigation -->
+<div class="d-none d-md-block">
+  <!-- Desktop navigation -->
+</div>
+<div class="d-md-none">
+  <!-- Mobile navigation -->
+</div>
+```
+
+### Utility Classes for Responsiveness
+```html
+<!-- Text alignment -->
+<p class="text-start text-md-center text-lg-end">Responsive text alignment</p>
+
+<!-- Spacing -->
+<div class="p-2 p-md-4 p-lg-5">Responsive padding</div>
+
+<!-- Visibility -->
+<div class="d-none d-md-block">Hidden on mobile, visible on desktop</div>
+<div class="d-block d-md-none">Visible on mobile, hidden on desktop</div>
+```
+
+## Performance Optimization
+
+### Bootstrap CDN Integration
+```html
+<!-- CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- JavaScript Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+```
+
+### Custom Bootstrap Build
+```scss
+// Custom variables
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Import only needed components
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/utilities";
+```
+
+## Accessibility Guidelines
+
+### ARIA Attributes
+```html
+<!-- Navigation with ARIA -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#" aria-label="Home">
+      Cultural Events
+    </a>
+  </div>
+</nav>
+
+<!-- Form with proper labels -->
+<div class="mb-3">
+  <label for="searchInput" class="form-label">Search Events</label>
+  <input type="text" class="form-control" id="searchInput" 
+         aria-describedby="searchHelp" placeholder="Enter event name or category">
+  <div id="searchHelp" class="form-text">Search for events by name, category, or location.</div>
+</div>
+
+<!-- Button with descriptive text -->
+<button class="btn btn-primary" aria-label="Add event to calendar">
+  <i class="bi bi-calendar-plus"></i>
+  <span class="ms-1">Add to Calendar</span>
+</button>
+```
+
+## Key Conventions
+
+1. **Naming**: Follow Bootstrap's naming conventions and class structures
+2. **Responsiveness**: Prioritize mobile-first design in every component
+3. **Accessibility**: Use semantic HTML and ARIA attributes
+4. **Performance**: Minimize custom CSS, leverage Bootstrap utilities
+5. **Maintainability**: Keep custom styles to a minimum
+6. **Documentation**: Refer to Bootstrap documentation for best practices
+
+## Dependencies
+- Bootstrap 5.3+ (CSS and JS)
+- Bootstrap Icons 1.11+
+- jQuery (if required for legacy components)
+- Custom JavaScript for interactive features

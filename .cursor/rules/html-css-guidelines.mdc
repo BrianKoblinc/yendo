@@ -1,0 +1,375 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# HTML and CSS Development Guidelines
+
+## Core Principles
+- Write semantic HTML to improve accessibility and SEO
+- Use CSS for styling, avoiding inline styles
+- Ensure responsive design using media queries and flexible layouts
+- Prioritize accessibility by using ARIA roles and attributes
+
+## HTML Best Practices
+
+### Semantic Elements
+- Use semantic elements (e.g., `<header>`, `<main>`, `<footer>`, `<article>`, `<section>`)
+- Use `<button>` for clickable elements, not `<div>` or `<span>`
+- Use `<a>` for links, ensuring href attribute is present
+- Use `<img>` with alt attribute for images
+- Use `<form>` for forms, with appropriate input types and labels
+- Avoid using deprecated elements (e.g., `<font>`, `<center>`)
+
+### Accessibility
+- Use ARIA roles and attributes to enhance accessibility
+- Ensure sufficient color contrast for text
+- Provide keyboard navigation for interactive elements
+- Use focus styles to indicate focus state
+- Use landmarks (e.g., `<nav>`, `<main>`, `<aside>`) for screen readers
+
+### Form Elements
+```html
+<!-- Good: Proper form structure with labels -->
+<form class="needs-validation" novalidate>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" required>
+    <div class="invalid-feedback">
+      Please provide a valid email address.
+    </div>
+  </div>
+</form>
+
+<!-- Good: Semantic button -->
+<button type="button" class="btn btn-primary" aria-label="Add event to calendar">
+  <i class="bi bi-calendar-plus"></i>
+  <span class="ms-1">Add to Calendar</span>
+</button>
+
+<!-- Good: Proper link structure -->
+<a href="/events" class="nav-link" aria-current="page">Events</a>
+```
+
+## CSS Best Practices
+
+### Structure and Organization
+- Use external stylesheets for CSS
+- Use class selectors over ID selectors for styling
+- Use Flexbox and Grid for layout
+- Use rem and em units for scalable and accessible typography
+- Use CSS variables for consistent theming
+- Use BEM (Block Element Modifier) methodology for naming classes
+- Avoid !important; use specificity to manage styles
+
+### CSS Variables and Theming
+```css
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  
+  --font-family-base: 'Arial', sans-serif;
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+  
+  --border-radius: 0.375rem;
+  --border-width: 1px;
+  --border-color: #dee2e6;
+}
+
+/* Usage */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-family: var(--font-family-base);
+}
+```
+
+### BEM Methodology
+```css
+/* Block */
+.event-card { }
+
+/* Element */
+.event-card__title { }
+.event-card__image { }
+.event-card__body { }
+
+/* Modifier */
+.event-card--featured { }
+.event-card--selected { }
+.event-card__title--large { }
+```
+
+### Layout with Flexbox and Grid
+```css
+/* Flexbox Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+}
+```
+
+## Responsive Design
+
+### Mobile-First Approach
+- Use media queries to create responsive layouts
+- Use mobile-first approach for media queries
+- Ensure touch targets are large enough for touch devices
+- Use responsive images with srcset and sizes attributes
+- Use viewport meta tag for responsive scaling
+
+### Media Queries
+```css
+/* Mobile-first approach */
+.container {
+  padding: 1rem;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  .container {
+    padding: 3rem;
+  }
+}
+```
+
+### Responsive Images
+```html
+<img src="event-small.jpg" 
+     srcset="event-small.jpg 300w, event-medium.jpg 600w, event-large.jpg 900w"
+     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+     alt="Event description"
+     class="img-fluid">
+```
+
+### Touch Targets
+```css
+/* Ensure touch targets are at least 44px */
+.btn, .nav-link, .form-control {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* For smaller elements, add padding */
+.icon-button {
+  padding: 0.5rem;
+  min-width: 44px;
+  min-height: 44px;
+}
+```
+
+## Accessibility Guidelines
+
+### Color and Contrast
+```css
+/* Ensure sufficient contrast */
+.text-primary {
+  color: #0056b3; /* Darker blue for better contrast */
+}
+
+.text-muted {
+  color: #6c757d; /* Meets WCAG AA standards */
+}
+
+/* Focus styles */
+.btn:focus,
+.form-control:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+```
+
+### ARIA Attributes
+```html
+<!-- Navigation with proper ARIA -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#" aria-label="Home">
+      Cultural Events
+    </a>
+  </div>
+</nav>
+
+<!-- Form with proper labels and descriptions -->
+<div class="mb-3">
+  <label for="searchInput" class="form-label">Search Events</label>
+  <input type="text" class="form-control" id="searchInput" 
+         aria-describedby="searchHelp" placeholder="Enter event name or category">
+  <div id="searchHelp" class="form-text">Search for events by name, category, or location.</div>
+</div>
+
+<!-- Modal with proper ARIA -->
+<div class="modal fade" id="eventModal" tabindex="-1" 
+     aria-labelledby="eventModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="eventModalLabel">Event Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## Performance Optimization
+
+### CSS Optimization
+```css
+/* Use efficient selectors */
+.event-card .title { } /* Good */
+.event-card > .title { } /* Better */
+.event-card__title { } /* Best */
+
+/* Avoid expensive selectors */
+div div div .class { } /* Avoid */
+.class { } /* Prefer */
+
+/* Use transform and opacity for animations */
+.animate {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+```
+
+### Critical CSS
+```html
+<!-- Inline critical CSS -->
+<style>
+  .header { background: var(--primary-color); }
+  .nav { display: flex; }
+  .main { min-height: 100vh; }
+</style>
+
+<!-- Load non-critical CSS asynchronously -->
+<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+```
+
+## Testing and Validation
+
+### Browser Testing
+- Test in multiple browsers (Chrome, Firefox, Safari, Edge)
+- Test on different devices and screen sizes
+- Use browser dev tools for responsive testing
+- Test with keyboard navigation only
+
+### Accessibility Testing
+```html
+<!-- Use semantic HTML for better accessibility -->
+<main role="main">
+  <section aria-labelledby="events-heading">
+    <h2 id="events-heading">Upcoming Events</h2>
+    <div class="events-grid" role="list">
+      <article class="event-card" role="listitem">
+        <!-- Event content -->
+      </article>
+    </div>
+  </section>
+</main>
+```
+
+### Performance Testing
+- Use Lighthouse for performance audits
+- Validate HTML using W3C validator
+- Validate CSS using W3C CSS validator
+- Test loading times and Core Web Vitals
+
+## Documentation Standards
+
+### CSS Comments
+```css
+/* ==========================================================================
+   Event Card Component
+   ========================================================================== */
+
+/**
+ * Event card styling with hover effects
+ * @component .event-card
+ * @modifier .event-card--featured
+ */
+.event-card {
+  /* Base styles */
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--border-radius);
+  transition: box-shadow 0.2s ease;
+}
+
+.event-card--featured {
+  /* Featured event styling */
+  border-color: var(--primary-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.15);
+}
+```
+
+### HTML Comments
+```html
+<!-- Event Card Template -->
+<article class="event-card" data-event-id="123">
+  <!-- Event image with proper alt text -->
+  <img src="event-image.jpg" alt="Concert at Central Park" class="event-card__image">
+  
+  <!-- Event details -->
+  <div class="event-card__body">
+    <h3 class="event-card__title">Summer Concert Series</h3>
+    <p class="event-card__description">Live music in the heart of the city</p>
+  </div>
+</article>
+```
+
+## Key Conventions
+
+1. **Naming**: Use BEM methodology for CSS classes
+2. **Responsiveness**: Mobile-first approach with progressive enhancement
+3. **Accessibility**: Semantic HTML and ARIA attributes
+4. **Performance**: Optimize CSS selectors and use efficient properties
+5. **Maintainability**: Use CSS variables and consistent naming
+6. **Documentation**: Comment complex CSS and HTML structures
+
+## Dependencies
+- Modern browser support (ES6+, CSS Grid, Flexbox)
+- Accessibility testing tools (axe-core, Lighthouse)
+- CSS preprocessors (optional: Sass, Less)
+- Build tools (optional: PostCSS, Autoprefixer)
+
+## References
+- [MDN Web Docs](mdc:https:/developer.mozilla.org) for HTML and CSS best practices
+- [W3C Guidelines](mdc:https:/www.w3.org/WAI) for accessibility standards
+- [BEM Methodology](mdc:http:/getbem.com) for CSS naming conventions
+- [CSS Grid Guide](mdc:https:/css-tricks.com/snippets/css/complete-guide-grid) for layout
+- [Flexbox Guide](mdc:https:/css-tricks.com/snippets/css/a-guide-to-flexbox) for layout

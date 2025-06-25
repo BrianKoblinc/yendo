@@ -1,0 +1,70 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Component Architecture
+
+## Core Components Structure
+
+### Layout Components
+- `Layout/` - Main layout wrapper
+- `Header/` - Navigation and search bar
+- `Footer/` - Site footer with links
+- `Sidebar/` - Filter panel for mobile/desktop
+
+### Event Components
+- `EventCard/` - Individual event display card
+- `EventList/` - Grid/list view of events
+- `EventDetail/` - Detailed event view
+- `EventMap/` - Map view of events
+- `EventCalendar/` - Calendar view integration
+
+### Filter Components
+- `FilterPanel/` - Main filter interface
+- `DateFilter/` - Date range selection
+- `CategoryFilter/` - Event category selection
+- `PriceFilter/` - Price range slider
+- `LocationFilter/` - Location-based filtering
+- `TagFilter/` - Tag-based filtering
+
+### User Components
+- `UserProfile/` - User preferences and settings
+- `UserCalendar/` - Personal event calendar
+- `Favorites/` - Saved/favorite events
+- `Notifications/` - Notification preferences
+
+### Utility Components
+- `SearchBar/` - Global search functionality
+- `LoadingSpinner/` - Loading states
+- `ErrorBoundary/` - Error handling
+- `Modal/` - Reusable modal dialogs
+- `Button/` - Standardized buttons
+- `Input/` - Form inputs
+
+## Component Guidelines
+
+### Responsive Design
+- Mobile-first approach
+- Breakpoints: 320px, 768px, 1024px, 1440px
+- Flexible grid system
+- Touch-friendly interactions
+
+### Accessibility
+- ARIA labels and roles
+- Keyboard navigation support
+- Screen reader compatibility
+- High contrast mode support
+- Focus management
+
+### Performance
+- Lazy loading for images
+- Virtual scrolling for large lists
+- Memoization for expensive operations
+- Code splitting by routes
+
+### State Management
+- Global state for user preferences
+- Local state for UI interactions
+- Server state for event data
+- Caching strategy for API responses

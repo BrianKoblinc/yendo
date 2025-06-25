@@ -1,0 +1,13 @@
+{
+    "name": "Minimal Rosado",
+    "description": "Diseño minimalista con colores suaves y tipografía redondeada en tonos rosados y beige.",
+    "preview": "templates/minimal-rosado-preview.png",
+    "styles": {
+      "headerStyle": "text-align: center; color: #d49696; margin-bottom: 24px; font-family: 'Fredoka One', 'Arial Rounded MT Bold', Arial, sans-serif; font-size: 48px; font-weight: bold; background: none;",
+      "tableStyle": "width: 100%; border-collapse: collapse; font-family: 'Arial Rounded MT Bold', Arial, sans-serif; font-size: 16px; background: none;",
+      "thStyle": "border: 1px solid #eedee4; padding: 10px; background: #eecaca; color: #864f4f; text-align: center; font-weight: 700; font-size: 14px; letter-spacing: 0.3px;",
+      "tdStyle": "border: 1px solid #e6e2dd; padding: 8px; height: 85px; vertical-align: top; background: #fff7ee;",
+      "eventStyle": "font-size: 10px; margin-bottom: 2px; padding: 3px; background: #d49696; color: white; border-radius: 4px; line-height: 1.1; word-wrap: break-word; overflow-wrap: break-word;",
+      "dayNumberStyle": "font-weight: bold; margin-bottom: 4px; font-size: 13px; color: #d49696; text-align: right; letter-spacing: 1px;"
+    }
+  }

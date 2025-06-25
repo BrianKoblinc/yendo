@@ -1,0 +1,98 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Event Data Model
+
+## Event Entity Structure
+```typescript
+interface Event {
+  id: string;
+  title: string;
+  description: string;
+  category: EventCategory;
+  subcategory?: string;
+  date: {
+    start: Date;
+    end: Date;
+    timezone: string;
+  };
+  location: {
+    venue: string;
+    address: string;
+    city: string;
+    country: string;
+    coordinates?: {
+      lat: number;
+      lng: number;
+    };
+  };
+  pricing: {
+    type: 'free' | 'paid' | 'donation';
+    amount?: number;
+    currency?: string;
+    ticketUrl?: string;
+  };
+  media: {
+    images: string[];
+    videoUrl?: string;
+  };
+  organizer: {
+    name: string;
+    contact?: string;
+    website?: string;
+  };
+  tags: string[];
+  capacity?: number;
+  ageRestriction?: string;
+  accessibility?: string[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+```
+
+## Event Categories
+```typescript
+enum EventCategory {
+  MUSIC = 'music',
+  THEATER = 'theater',
+  ART = 'art',
+  DANCE = 'dance',
+  LITERATURE = 'literature',
+  FILM = 'film',
+  WORKSHOP = 'workshop',
+  EXHIBITION = 'exhibition',
+  FESTIVAL = 'festival',
+  CONFERENCE = 'conference',
+  OTHER = 'other'
+}
+```
+
+## Filter Criteria
+- **Date Range**: Start date, end date, specific dates
+- **Price Range**: Free, paid, specific price ranges
+- **Category**: Event type filtering
+- **Location**: City, venue, distance from user
+- **Tags**: Specific interests or themes
+- **Accessibility**: Wheelchair accessible, sign language, etc.
+- **Age Restrictions**: Family-friendly, adult-only, etc.
+
+## User Preferences
+```typescript
+interface UserPreferences {
+  userId: string;
+  favoriteCategories: EventCategory[];
+  preferredLocations: string[];
+  priceRange: {
+    min: number;
+    max: number;
+  };
+  notificationSettings: {
+    email: boolean;
+    push: boolean;
+    sms: boolean;
+  };
+  accessibility: string[];
+}
+```

@@ -1,0 +1,93 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# API Architecture
+
+## API Endpoints Structure
+
+### Events API
+```
+GET /api/events - List events with filters
+GET /api/events/:id - Get single event details
+POST /api/events - Create new event (admin)
+PUT /api/events/:id - Update event (admin)
+DELETE /api/events/:id - Delete event (admin)
+```
+
+### User API
+```
+GET /api/user/profile - Get user profile
+PUT /api/user/profile - Update user profile
+GET /api/user/preferences - Get user preferences
+PUT /api/user/preferences - Update user preferences
+GET /api/user/calendar - Get user's saved events
+POST /api/user/calendar - Add event to user calendar
+DELETE /api/user/calendar/:eventId - Remove event from calendar
+```
+
+### Search & Filter API
+```
+GET /api/search - Global search across events
+GET /api/categories - Get all event categories
+GET /api/locations - Get available locations
+GET /api/tags - Get all available tags
+```
+
+### Calendar Integration API
+```
+GET /api/calendar/export - Export calendar (iCal format)
+POST /api/calendar/import - Import calendar events
+GET /api/calendar/sync - Sync with external calendars
+```
+
+## Service Layer Structure
+
+### EventService
+```typescript
+class EventService {
+  async getEvents(filters: EventFilters): Promise<Event[]>
+  async getEventById(id: string): Promise<Event>
+  async searchEvents(query: string): Promise<Event[]>
+  async getEventsByCategory(category: EventCategory): Promise<Event[]>
+  async getEventsByLocation(location: string): Promise<Event[]>
+}
+```
+
+### UserService
+```typescript
+class UserService {
+  async getUserProfile(): Promise<UserProfile>
+  async updateUserProfile(profile: Partial<UserProfile>): Promise<void>
+  async getUserPreferences(): Promise<UserPreferences>
+  async updateUserPreferences(preferences: Partial<UserPreferences>): Promise<void>
+  async getSavedEvents(): Promise<Event[]>
+  async saveEvent(eventId: string): Promise<void>
+  async removeSavedEvent(eventId: string): Promise<void>
+}
+```
+
+### FilterService
+```typescript
+class FilterService {
+  async applyFilters(events: Event[], filters: EventFilters): Promise<Event[]>
+  async getAvailableCategories(): Promise<EventCategory[]>
+  async getAvailableLocations(): Promise<string[]>
+  async getAvailableTags(): Promise<string[]>
+}
+```
+
+## Data Flow
+1. **Client Request** → API Gateway
+2. **Authentication** → JWT token validation
+3. **Request Processing** → Service layer
+4. **Database Query** → Repository layer
+5. **Response** → Client with proper caching
+
+## Error Handling
+- Standardized error responses
+- HTTP status codes
+- Error logging and monitoring
+- User-friendly error messages
+- Retry mechanisms for transient failures

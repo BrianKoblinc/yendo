@@ -1,0 +1,2270 @@
+/* ==========================================================================
+   Eventos Culturales BA - Tema Nocturno
+   ========================================================================== */
+
+/* Variables CSS para colores y estilos consistentes */
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --night-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  --card-gradient: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  --glass-bg: rgba(45, 55, 72, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  --card-shadow-hover: 0 16px 48px rgba(0, 0, 0, 0.4);
+  --text-primary: #f7fafc;
+  --text-secondary: #e2e8f0;
+  --text-muted: #a0aec0;
+  --border-radius: 16px;
+  --border-radius-sm: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--night-gradient);
+  min-height: 100vh;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 1rem;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+h1 { font-size: 2.5rem; font-weight: 700; }
+h2 { font-size: 2rem; font-weight: 600; }
+h3 { font-size: 1.5rem; font-weight: 600; }
+h4 { font-size: 1.25rem; font-weight: 500; }
+h5 { font-size: 1.125rem; font-weight: 500; }
+h6 { font-size: 1rem; font-weight: 500; }
+
+/* ==========================================================================
+   Modern Navbar
+   ========================================================================== */
+
+.navbar {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #f7fafc !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.navbar-brand:hover {
+  color: #93c5fd !important;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+  margin: 0 0.25rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #93c5fd !important;
+  background: rgba(59, 130, 246, 0.1);
+  transform: translateY(-1px);
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+  border-radius: var(--border-radius-sm);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   Glassmorphism Cards
+   ========================================================================== */
+
+.card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.card-header {
+  background: rgba(45, 55, 72, 0.8);
+  border-bottom: 1px solid var(--glass-border);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ==========================================================================
+   Event Cards
+   ========================================================================== */
+
+.event-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-lg);
+  transition: var(--transition);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.event-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.event-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.event-card .card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-card .card-title {
+  color: #f7fafc !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.event-card .card-text {
+  color: #e2e8f0 !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.event-card .event-info {
+  color: #cbd5e0 !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-card .event-info i {
+  color: #93c5fd;
+  font-size: 0.9rem;
+}
+
+.event-card .badge {
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--border-radius-sm);
+  margin: 0 0.25rem;
+  font-size: 0.8rem;
+}
+
+.event-card .badge.bg-success {
+  background: rgba(16, 185, 129, 0.2) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.event-card .badge.bg-primary {
+  background: rgba(59, 130, 246, 0.2) !important;
+  color: #93c5fd !important;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.event-card .btn {
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+}
+
+.event-card .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.event-card .place-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--border-radius-sm);
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
+}
+
+.event-card .card-footer {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1rem 1.25rem;
+}
+
+/* ==========================================================================
+   Filter Panel Improvements
+   ========================================================================== */
+
+/* Mejorar legibilidad en filtros específicamente */
+.filter-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  position: sticky;
+  top: 1rem;
+}
+
+/* Mejorar títulos de filtros */
+.filter-panel h6 {
+  color: #f7fafc !important;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+/* Mejorar scrollbar en filtros */
+.filter-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-panel::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.filter-panel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.filter-panel::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Mejorar separadores entre secciones de filtros */
+.filter-panel hr {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 1.5rem 0;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.btn {
+  border-radius: var(--border-radius-sm);
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: var(--transition);
+  border: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  border: none;
+  color: #f7fafc;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+  color: #f7fafc;
+}
+
+.btn-outline-primary {
+  border: 2px solid #667eea;
+  color: #667eea;
+  background: transparent;
+}
+
+.btn-outline-primary:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background: var(--secondary-gradient);
+  box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3);
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(240, 147, 251, 0.4);
+}
+
+.btn-outline-light {
+  border: 2px solid var(--text-secondary);
+  color: var(--text-secondary);
+  background: transparent;
+}
+
+.btn-outline-light:hover {
+  background: var(--text-secondary);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* ==========================================================================
+   Loading States
+   ========================================================================== */
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(102, 126, 234, 0.1);
+  border-left: 4px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Statistics Cards
+   ========================================================================== */
+
+.stats-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+  height: 100%;
+}
+
+.stats-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.stats-card .stats-number {
+  color: #f7fafc !important;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #f7fafc 0%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stats-card .stats-label {
+  color: #e2e8f0 !important;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-card .stats-description {
+  color: #cbd5e0 !important;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Modal Styling
+   ========================================================================== */
+
+.modal-content {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--glass-border);
+  background: rgba(45, 55, 72, 0.8);
+}
+
+.modal-footer {
+  border-top: 1px solid var(--glass-border);
+  background: rgba(45, 55, 72, 0.8);
+}
+
+.modal-title {
+  color: #f7fafc !important;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.modal-body {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.modal-body strong {
+  color: #f7fafc;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Map Styling
+   ========================================================================== */
+
+.map-square {
+  width: 100%;
+  height: 400px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--glass-border);
+}
+
+/* ==========================================================================
+   Form Controls
+   ========================================================================== */
+
+.form-control, .form-select {
+  background: rgba(45, 55, 72, 0.8);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+}
+
+.form-control:focus, .form-select:focus {
+  background: rgba(45, 55, 72, 0.9);
+  border-color: #667eea;
+  color: var(--text-primary);
+}
+
+.form-control::placeholder {
+  color: #a0aec0 !important;
+  font-weight: 400;
+}
+
+.input-group-text {
+  background: rgba(45, 55, 72, 0.8);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .filter-panel {
+    padding: 1rem;
+    max-height: 70vh;
+  }
+  
+  .stats-card {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --border-radius: 12px;
+    --border-radius-sm: 8px;
+  }
+  
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .event-card .card-img-top {
+    height: 150px;
+  }
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.text-gradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--glass-border);
+}
+
+.shadow-glass {
+  box-shadow: var(--glass-shadow);
+}
+
+.rounded-glass {
+  border-radius: var(--border-radius);
+}
+
+.text-muted {
+  color: #cbd5e0 !important;
+  font-weight: 400;
+}
+
+/* ==========================================================================
+   Custom Scrollbar
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(45, 55, 72, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-gradient);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-gradient);
+}
+
+/* ==========================================================================
+   Checkbox and Radio Styling
+   ========================================================================== */
+
+.form-check-input {
+  background-color: rgba(45, 55, 72, 0.8);
+  border: 1px solid var(--glass-border);
+}
+
+.form-check-input:checked {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.form-check-label {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.form-check-label strong {
+  color: #f7fafc !important;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Range Input Styling
+   ========================================================================== */
+
+.form-range::-webkit-slider-track {
+  background: rgba(45, 55, 72, 0.8);
+}
+
+.form-range::-webkit-slider-thumb {
+  background: var(--primary-gradient);
+}
+
+.form-range::-moz-range-track {
+  background: rgba(45, 55, 72, 0.8);
+}
+
+.form-range::-moz-range-thumb {
+  background: var(--primary-gradient);
+}
+
+/* Custom styles for Cultural Events Website */
+
+/* Event Card Styles */
+.event-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #dee2e6;
+}
+
+.event-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-card.selected {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.event-card .card-img-top {
+    height: 140px;
+    object-fit: cover;
+    background-color: #f8f9fa;
+    transition: transform 0.2s ease-in-out;
+}
+
+.event-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.event-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.event-card .card-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+    flex-grow: 1;
+}
+
+.event-card .event-meta {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+.event-card .price-badge {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.event-card .type-badge {
+    font-size: 0.75rem;
+}
+
+/* Filter Panel Styles */
+.filter-panel {
+    position: sticky;
+    top: 1rem;
+}
+
+/* Multiple Selection Filter Styles */
+.form-control[style*="max-height"] {
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    padding: 0.75rem;
+}
+
+.form-control[style*="max-height"] .form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-control[style*="max-height"] .form-check:last-child {
+    margin-bottom: 0;
+}
+
+.form-control[style*="max-height"] .form-check-input {
+    margin-top: 0.125rem;
+}
+
+.form-control[style*="max-height"] .form-check-label {
+    font-size: 0.875rem;
+    color: #495057;
+    cursor: pointer;
+    padding-left: 0.25rem;
+}
+
+.form-control[style*="max-height"] .form-check-label:hover {
+    color: #0d6efd;
+}
+
+.form-control[style*="max-height"] .form-check:first-child {
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control[style*="max-height"] .form-check:first-child .form-check-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control[style*="max-height"] .form-check:first-child .form-check-label:hover {
+    color: #0d6efd;
+}
+
+/* Filter Search Input Styles */
+#place-search, #type-search {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#place-search:focus, #type-search:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    outline: 0;
+}
+
+#place-search::placeholder, #type-search::placeholder {
+    color: #6c757d;
+    opacity: 0.7;
+}
+
+/* Scrollbar for filter containers */
+.form-control[style*="max-height"]::-webkit-scrollbar {
+    width: 6px;
+}
+
+.form-control[style*="max-height"]::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.form-control[style*="max-height"]::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.form-control[style*="max-height"]::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Search Bar Styles */
+.search-container {
+    position: relative;
+}
+
+.search-container .form-control {
+    padding-left: 2.5rem;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+/* Loading Animation */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Calendar Button Animation */
+.btn-calendar {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-calendar:hover {
+    transform: scale(1.05);
+}
+
+.btn-calendar.selected {
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+}
+
+/* Report Error Button Styles */
+.btn-report-error {
+    transition: all 0.2s ease-in-out;
+    opacity: 0.7;
+    border: none;
+    background: transparent;
+    color: #6c757d;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-report-error:hover {
+    opacity: 1;
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+    transform: scale(1.1);
+}
+
+.event-card:hover .btn-report-error {
+    opacity: 1;
+}
+
+/* Error Report Modal Styles */
+#reportErrorModal .modal-header {
+    background-color: #fff3cd;
+    border-bottom: 1px solid #ffeaa7;
+}
+
+#reportErrorModal .modal-title {
+    color: #856404;
+}
+
+#reportErrorModal .form-control:focus,
+#reportErrorModal .form-select:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+/* Statistics Cards */
+.stats-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+}
+
+.stats-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Map Styles */
+#map {
+    border-radius: 0.375rem;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    position: relative;
+    overflow: hidden;
+}
+
+#map .leaflet-container {
+    z-index: 1;
+    position: relative;
+}
+
+.custom-div-icon {
+    background: transparent;
+    border: none;
+}
+
+/* Distance Filter Styles */
+#distance-controls {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid #dee2e6;
+}
+
+.form-range {
+    height: 6px;
+    border-radius: 3px;
+    background: #dee2e6;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #0d6efd;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-range::-moz-range-thumb {
+    background: #0d6efd;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .event-card .card-img-top {
+        height: 100px;
+    }
+    
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    .container-fluid {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    #map {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .event-card .card-title {
+        font-size: 0.9rem;
+    }
+    
+    .event-card .card-text {
+        font-size: 0.8rem;
+    }
+    
+    .btn {
+        font-size: 0.875rem;
+    }
+    
+    #map {
+        height: 250px !important;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Animation for alerts */
+.alert {
+    animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Event type color coding */
+.badge.bg-music {
+    background-color: #e83e8c !important;
+}
+
+.badge.bg-theater {
+    background-color: #fd7e14 !important;
+}
+
+.badge.bg-art {
+    background-color: #6f42c1 !important;
+}
+
+.badge.bg-dance {
+    background-color: #20c997 !important;
+}
+
+.badge.bg-literature {
+    background-color: #17a2b8 !important;
+}
+
+.badge.bg-film {
+    background-color: #343a40 !important;
+}
+
+.badge.bg-workshop {
+    background-color: #28a745 !important;
+}
+
+.badge.bg-exhibition {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.badge.bg-festival {
+    background-color: #dc3545 !important;
+}
+
+.badge.bg-conference {
+    background-color: #6c757d !important;
+}
+
+.badge.bg-party {
+    background-color: #fd7e14 !important;
+}
+
+.badge.bg-show {
+    background-color: #6f42c1 !important;
+}
+
+.badge.bg-lecture {
+    background-color: #17a2b8 !important;
+}
+
+.badge.bg-discussion {
+    background-color: #28a745 !important;
+}
+
+.badge.bg-march {
+    background-color: #dc3545 !important;
+}
+
+.badge.bg-other {
+    background-color: #6c757d !important;
+}
+
+/* Price styling */
+.price-free {
+    color: #198754;
+    font-weight: 600;
+}
+
+.price-paid {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.price-unknown {
+    color: #6c757d;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Place name styling */
+.place-name {
+    color: #495057;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+/* Date styling */
+.event-date {
+    color: #6c757d;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Modal enhancements */
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+    color: #e2e8f0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter enhancement */
+.form-select:focus,
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Button states */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Success alert positioning */
+#success-alert {
+    max-width: 400px;
+}
+
+/* Loading spinner enhancement */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Card hover effects */
+.card {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Form validation styles */
+.form-control.is-invalid {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.form-control.is-valid {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+/* Navigation active states */
+.nav-link.active {
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0.375rem;
+}
+
+/* Help view styling */
+#help-view .card-body {
+    color: #e2e8f0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+#help-view h6 {
+    color: #f7fafc;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#help-view ul li {
+    margin-bottom: 0.75rem;
+}
+
+/* Calendar view styling */
+#selected-events-list .card {
+    border-left: 4px solid #0d6efd;
+}
+
+#selected-events-list .card:hover {
+    border-left-color: #0056b3;
+}
+
+/* Image fallback styling */
+.event-card img[src*="data/icons/"] {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.event-card img[src*="data/icons/"]:hover {
+    opacity: 0.9;
+}
+
+/* Map Modal Styles - Consolidated */
+#mapModal .modal-dialog {
+    max-width: 95vw !important;
+    width: 95vw;
+    margin: 1rem auto;
+}
+
+#mapModal .modal-content {
+    height: 90vh;
+    max-height: 90vh;
+}
+
+#mapModal .modal-body {
+    padding: 1rem;
+    height: calc(90vh - 120px); /* Subtract header and footer height */
+    overflow: hidden;
+}
+
+#mapModal #map {
+    height: 100% !important;
+    border-radius: 0.375rem;
+    border: 1px solid #dee2e6;
+}
+
+/* Distance filter active state */
+#enable-distance-filter:checked + label {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+/* Range slider custom styling */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-track {
+    background: #dee2e6;
+    height: 6px;
+    border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #0d6efd;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-track {
+    background: #dee2e6;
+    height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+    background: #0d6efd;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Leaflet map custom styles */
+.leaflet-popup-content-wrapper {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+    margin: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.leaflet-popup-tip {
+    background: white;
+}
+
+/* Responsive image handling */
+@media (max-width: 576px) {
+    .event-card .card-img-top {
+        height: 80px;
+    }
+    
+    .modal-body img {
+        max-height: 150px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .btn,
+    #distance-controls,
+    .modal {
+        display: none !important;
+    }
+    
+    .event-card {
+        break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Map loading indicator */
+#map .spinner-border {
+    width: 2rem;
+    height: 2rem;
+    border-width: 0.2em;
+}
+
+#map .d-flex {
+    background-color: rgba(248, 249, 250, 0.9);
+    backdrop-filter: blur(2px);
+}
+
+/* Map modal optimizations */
+#mapModal .modal-dialog {
+    max-width: 98vw !important;
+    width: 98vw;
+    margin: 0.5rem auto;
+}
+
+#mapModal .modal-content {
+    height: 95vh;
+    max-height: 95vh;
+}
+
+#mapModal .modal-body {
+    height: calc(95vh - 120px);
+}
+
+#mapModal .modal-content {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments for map modal */
+@media (max-width: 768px) {
+    #mapModal .modal-dialog {
+        max-width: 98vw !important;
+        width: 98vw;
+        margin: 0.5rem auto;
+    }
+    
+    #mapModal .modal-content {
+        height: 95vh;
+        max-height: 95vh;
+    }
+    
+    #mapModal .modal-body {
+        height: calc(95vh - 120px);
+    }
+}
+
+/* ==========================================================================
+   Additional Night Theme Enhancements
+   ========================================================================== */
+
+/* Mejorar contraste para mejor legibilidad */
+.text-light {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+}
+
+/* Estilos para el mensaje de no eventos */
+#no-events .card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+}
+
+#no-events .display-1 {
+  color: var(--text-muted);
+}
+
+/* Mejorar visibilidad de los badges */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Estilos para el input de búsqueda */
+#search-input {
+  background: rgba(45, 55, 72, 0.8);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+}
+
+#search-input:focus {
+  background: rgba(45, 55, 72, 0.9);
+  border-color: #667eea;
+  color: var(--text-primary);
+}
+
+#search-input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Estilos para el botón de limpiar búsqueda */
+#clear-search {
+  background: rgba(45, 55, 72, 0.8);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+}
+
+#clear-search:hover {
+  background: rgba(45, 55, 72, 0.9);
+  color: var(--text-primary);
+}
+
+/* Mejorar visibilidad de los tooltips */
+.tooltip {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+}
+
+/* Estilos para el footer si existe */
+footer {
+  background: var(--card-gradient);
+  color: var(--text-secondary);
+  border-top: 1px solid var(--glass-border);
+}
+
+/* Mejorar visibilidad de los enlaces */
+a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5a67d8;
+  text-decoration: underline;
+}
+
+/* Estilos para las alertas */
+.alert {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem 1.25rem;
+}
+
+.alert-heading {
+  color: #f7fafc;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.alert-info {
+  border-left: 4px solid #3b82f6;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.alert-success {
+  border-left: 4px solid #10b981;
+  background: rgba(16, 185, 129, 0.05);
+}
+
+.alert-warning {
+  border-left: 4px solid #f59e0b;
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.alert-danger {
+  border-left: 4px solid #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+/* ==========================================================================
+   Typography Improvements
+   ========================================================================== */
+
+/* Mejorar legibilidad general */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--night-gradient);
+  min-height: 100vh;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 1rem;
+}
+
+/* Mejorar contraste de textos */
+.text-muted {
+  color: #cbd5e0 !important;
+  font-weight: 400;
+}
+
+.text-secondary {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+}
+
+/* Mejorar legibilidad en filtros */
+.filter-panel .form-check-label {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.filter-panel .form-check-label strong {
+  color: #f7fafc !important;
+  font-weight: 600;
+}
+
+/* Mejorar textos en cards */
+.card-text {
+  color: #e2e8f0 !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Mejorar legibilidad en modales */
+.modal-body {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Mejorar textos en la sección de ayuda */
+#help-view .card-body {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+#help-view h6 {
+  color: #f7fafc;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#help-view .list-unstyled li {
+  color: #e2e8f0;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+#help-view .text-success {
+  color: #10b981 !important;
+}
+
+/* Mejorar legibilidad en estadísticas */
+.stats-label {
+  color: #cbd5e0 !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Mejorar textos en formularios */
+.form-label {
+  color: #f7fafc !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Mejorar placeholders */
+.form-control::placeholder {
+  color: #a0aec0 !important;
+  font-weight: 400;
+}
+
+/* Mejorar textos en botones */
+.btn {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Mejorar legibilidad en navegación */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* Mejorar textos en alertas */
+.alert {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Mejorar legibilidad en tooltips */
+.tooltip-inner {
+  background: var(--glass-bg);
+  color: #f7fafc;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius-sm);
+  padding: 0.5rem 0.75rem;
+}
+
+/* Mejorar textos en el header principal */
+.main-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.main-header h1 {
+  color: #f7fafc !important;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #f7fafc 0%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-header p {
+  color: #cbd5e0 !important;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Mejorar textos en botones principales */
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #e2e8f0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #f7fafc;
+  transform: translateY(-1px);
+}
+
+/* Mejorar textos en selectores */
+.form-select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+}
+
+.form-select:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #f7fafc;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+}
+
+/* Mejorar textos en textareas */
+.form-control[rows] {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Mejorar textos en badges y etiquetas */
+.badge {
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--border-radius-sm);
+}
+
+.badge.bg-primary {
+  background: rgba(59, 130, 246, 0.2) !important;
+  color: #93c5fd !important;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge.bg-success {
+  background: rgba(16, 185, 129, 0.2) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge.bg-warning {
+  background: rgba(245, 158, 11, 0.2) !important;
+  color: #fbbf24 !important;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge.bg-danger {
+  background: rgba(239, 68, 68, 0.2) !important;
+  color: #f87171 !important;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* ==========================================================================
+   Unified Filter Styles
+   ========================================================================== */
+
+/* Estilo unificado para todos los filtros */
+.filter-panel .form-control,
+.filter-panel .form-select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+}
+
+.filter-panel .form-control:focus,
+.filter-panel .form-select:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #f7fafc;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+}
+
+.filter-panel .form-control::placeholder {
+  color: #a0aec0 !important;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+/* Contenedores de checkboxes con el mismo estilo */
+.filter-panel .checkbox-container {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: 0.75rem;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.filter-panel .checkbox-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-panel .checkbox-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.filter-panel .checkbox-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.filter-panel .checkbox-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Mejorar checkboxes dentro de contenedores */
+.filter-panel .form-check,
+.filter-panel #place-checkboxes .form-check,
+.filter-panel #type-checkboxes .form-check {
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo especial para el primer checkbox (Todos los...) */
+.filter-panel .checkbox-container .form-check:first-child {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos unificados para todos los checkboxes */
+.filter-panel .form-check-input {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 3px !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 0.5rem !important;
+  flex-shrink: 0 !important;
+}
+
+.filter-panel .form-check-input:checked {
+  background-color: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+}
+
+.filter-panel .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25) !important;
+  border-color: #3b82f6 !important;
+}
+
+/* Estilos unificados para todas las etiquetas */
+.filter-panel .form-check-label {
+  color: #e2e8f0 !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  margin-left: 0 !important;
+  font-weight: normal !important;
+  line-height: 1.2 !important;
+}
+
+.filter-panel .form-check-label strong {
+  color: #f7fafc !important;
+  font-weight: 600 !important;
+}
+
+/* Contenedor de checkboxes */
+.filter-panel .checkbox-container {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.filter-panel #place-checkboxes,
+.filter-panel #type-checkboxes {
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* ==========================================================================
+   Calendar Event Indicators
+   ========================================================================== */
+
+/* Indicador de evento agregado al calendario */
+.event-card.added-to-calendar {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+  position: relative;
+}
+
+.event-card.added-to-calendar::before {
+  content: "✓";
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #10b981;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+}
+
+.event-card.added-to-calendar .btn-add-calendar {
+  background: #10b981 !important;
+  border-color: #10b981 !important;
+  color: white !important;
+}
+
+.event-card.added-to-calendar .btn-add-calendar::before {
+  content: "✓ ";
+  margin-right: 4px;
+}
+
+/* Hover effect para eventos agregados */
+.event-card.added-to-calendar:hover {
+  border-color: #059669 !important;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.4), 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Animación para el indicador */
+@keyframes calendarAdded {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.event-card.added-to-calendar::before {
+  animation: calendarAdded 0.3s ease-out;
+}
+
+/* Tooltip para eventos agregados */
+.event-card.added-to-calendar .btn-add-calendar:hover::after {
+  content: "Ya agregado al calendario";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 4px;
+}
+
+/* ==========================================================================
+   Distance Filter Improvements
+   ========================================================================== */
+
+/* Estilo unificado para el filtro de distancia */
+.filter-panel .form-range {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.filter-panel .form-range::-webkit-slider-thumb {
+  background: #3b82f6;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+.filter-panel .form-range::-webkit-slider-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  height: 6px;
+}
+
+.filter-panel .form-range::-moz-range-thumb {
+  background: #3b82f6;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+.filter-panel .form-range::-moz-range-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  height: 6px;
+}
+
+/* Mejorar texto de kilómetros */
+.filter-panel .form-range + .d-flex small {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+/* Contenedor del filtro de distancia */
+.filter-panel #distance-controls {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* Botón de seleccionar ubicación */
+.filter-panel #select-location {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+}
+
+.filter-panel #select-location:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #f7fafc;
+}
+
+/* ==========================================================================
+   Map Modal Styles
+   ========================================================================== */
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  background: #f8f9fa;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  position: relative;
+}
+
+.map-controls {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  height: 500px;
+  overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .map-container {
+    height: 300px;
+  }
+  
+  .map-controls {
+    height: auto;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ==========================================================================
+   Filter Checkbox Styles - Clean Version
+   ========================================================================== */
+
+/* Estilos base para todos los checkboxes en filtros */
+.filter-panel .form-check {
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+/* Eliminar separadores y estilos especiales */
+.filter-panel .form-check:first-child {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: none;
+}
+
+/* Estilos unificados para todos los checkboxes */
+.filter-panel .form-check-input {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 3px !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 0.5rem !important;
+  flex-shrink: 0 !important;
+}
+
+.filter-panel .form-check-input:checked {
+  background-color: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  transform: scale(1.1) !important;
+}
+
+.filter-panel .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25) !important;
+  border-color: #3b82f6 !important;
+}
+
+/* Estilos unificados para todas las etiquetas */
+.filter-panel .form-check-label {
+  color: #e2e8f0 !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  margin-left: 0 !important;
+  font-weight: normal !important;
+  line-height: 1.2 !important;
+}
+
+.filter-panel .form-check-label strong {
+  color: #f7fafc !important;
+  font-weight: 600 !important;
+}
+
+/* Efectos visuales para checkboxes seleccionados */
+.filter-panel .form-check:has(.form-check-input:checked) {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  padding: 0.5rem !important;
+  margin: 0.25rem 0 !important;
+}
+
+.filter-panel .form-check:has(.form-check-input:checked) .form-check-label {
+  color: #3b82f6 !important;
+  font-weight: 500 !important;
+}
+
+/* Hover effects */
+.filter-panel .form-check:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  padding: 0.5rem !important;
+  margin: 0.25rem 0 !important;
+}
+
+.filter-panel .form-check:hover .form-check-label {
+  color: #f7fafc !important;
+}
+
+/* Contenedor de checkboxes */
+.filter-panel .checkbox-container {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.filter-panel #place-checkboxes,
+.filter-panel #type-checkboxes {
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* ==========================================================================
+   Map Distance Circle Styles
+   ========================================================================== */
+
+.distance-circle {
+  position: absolute;
+  border: 3px solid #3b82f6;
+  border-radius: 50%;
+  background-color: rgba(59, 130, 246, 0.15);
+  transform: translate(-50%, -50%);
+  z-index: 15;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+} 

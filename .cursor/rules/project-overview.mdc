@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Cultural Events Website - Project Overview
+
+## Project Description
+This project aims to create a web application for displaying and managing cultural events. Users can browse events, filter them by various criteria, and create personalized calendars.
+
+## Core Features
+- **Event Database**: Comprehensive collection of cultural events
+- **Event Filtering**: Filter by date, price, event type, location, etc.
+- **Calendar Integration**: Add events to personal calendars
+- **Responsive Design**: Mobile-first approach for future mobile app adaptation
+- **User Experience**: Intuitive interface for event discovery and management
+
+## Technical Requirements
+- **Frontend**: Modern web framework (React/Vue/Angular) with responsive design
+- **Backend**: API for event management and user data
+- **Database**: Store events, user preferences, and calendar data
+- **Mobile-Ready**: Architecture should support future mobile app development
+
+## Project Structure
+- `src/` - Source code
+- `src/components/` - Reusable UI components
+- `src/pages/` - Main application pages
+- `src/services/` - API and business logic
+- `src/types/` - TypeScript type definitions
+- `src/utils/` - Utility functions
+- `public/` - Static assets
+- `docs/` - Project documentation
+
+## Future Considerations
+- Mobile app development for Android/iOS
+- Progressive Web App (PWA) capabilities
+- Offline functionality
+- Social features (sharing, recommendations)

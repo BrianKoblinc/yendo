@@ -1,0 +1,35 @@
+{
+  "name": "yendo",
+  "version": "1.0.0",
+  "description": "Plataforma web para descubrir y gestionar eventos culturales en Buenos Aires",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "eventos",
+    "cultura",
+    "buenos-aires",
+    "calendario",
+    "filtros",
+    "mapa"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/yendo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/yendo/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/yendo#readme",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
