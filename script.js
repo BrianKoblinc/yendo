@@ -1151,6 +1151,32 @@ class CulturalEventsApp {
         
         eventsGrid.innerHTML = '';
         
+        // Ordenar eventos: 1) fecha (no detectada al final), 2) precio (gratis primero, luego más bajo, luego no detectado), 3) lugar
+        this.filteredEvents.sort((a, b) => {
+            // 1. Fecha (no detectada al final)
+            const isDateAInvalid = !a.start_datetime || isNaN(new Date(a.start_datetime).getTime());
+            const isDateBInvalid = !b.start_datetime || isNaN(new Date(b.start_datetime).getTime());
+            if (isDateAInvalid && !isDateBInvalid) return 1;
+            if (!isDateAInvalid && isDateBInvalid) return -1;
+            if (!isDateAInvalid && !isDateBInvalid) {
+                const dateA = new Date(a.start_datetime);
+                const dateB = new Date(b.start_datetime);
+                if (dateA < dateB) return -1;
+                if (dateA > dateB) return 1;
+            }
+            // 2. Precio (null/undefined/NaN al final)
+            const priceA = (a.price === null || a.price === undefined || isNaN(a.price)) ? Infinity : a.price;
+            const priceB = (b.price === null || b.price === undefined || isNaN(b.price)) ? Infinity : b.price;
+            if (priceA < priceB) return -1;
+            if (priceA > priceB) return 1;
+            // 3. Lugar (alfabético)
+            const placeA = (a.placeName || '').toLowerCase();
+            const placeB = (b.placeName || '').toLowerCase();
+            if (placeA < placeB) return -1;
+            if (placeA > placeB) return 1;
+            return 0;
+        });
+
         this.filteredEvents.forEach((event, index) => {
             const eventCard = this.createEventCard(event);
             eventCard.style.animationDelay = `${index * 0.1}s`;
@@ -2401,9 +2427,4 @@ class CulturalEventsApp {
 }
 
 // Initialize the app when the DOM is loaded
-let app;
-
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, initializing app...');
-    app = new CulturalEventsApp();
-});
+window.app = new CulturalEventsApp();

@@ -76,27 +76,27 @@
                         <div class="card-header">
                             <h5 class="mb-0">
                                 <i class="bi bi-funnel me-2"></i>
-                                Filtros
+                                Filtrá a tu manera
                             </h5>
                         </div>
                         <div class="card-body">
                             <!-- Date Range Filter -->
                             <div class="mb-3">
-                                <label class="form-label">Rango de Fechas</label>
+                                <label class="form-label">¿Cuándo te gustaría salir?</label>
                                 <div class="input-group mb-2">
                                     <input type="date" class="form-control" id="start-date" aria-label="Fecha inicio" style="min-width: 140px;">
                                     <span class="input-group-text">a</span>
                                     <input type="date" class="form-control" id="end-date" aria-label="Fecha fin" style="min-width: 140px;">
                                 </div>
-                                <small class="text-muted">Incluye eventos hasta las 6 AM del día siguiente</small>
+                                <small class="text-muted">¡Incluimos hasta las 6 AM del día siguiente!</small>
                             </div>
 
                             <!-- Place Filter -->
                             <div class="mb-3">
-                                <label class="form-label">Lugares</label>
+                                <label class="form-label">¿Dónde querés ir?</label>
                                 <div class="mb-2">
                                     <input type="text" class="form-control form-control-sm" id="place-search" 
-                                           placeholder="Buscar lugares..." aria-label="Buscar lugares">
+                                           placeholder="Buscá un lugar..." aria-label="Buscá un lugar">
                                 </div>
                                 <div class="checkbox-container">
                                     <div class="form-check">
@@ -109,24 +109,28 @@
                                         <!-- Place checkboxes will be dynamically loaded here -->
                                     </div>
                                 </div>
-                                <small class="text-muted">Selecciona uno o más lugares</small>
+                                <small class="text-muted">Podés elegir todos los que quieras</small>
                             </div>
 
                             <!-- Price Range Filter -->
                             <div class="mb-3">
-                                <label class="form-label">Rango de Precio</label>
+                                <label class="form-label">¿Cuánto querés gastar?</label>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="free-only">
+                                    <label class="form-check-label" for="free-only">Solo ver eventos gratis</label>
+                                </div>
                                 <div class="d-flex gap-2">
-                                    <input type="number" class="form-control" id="min-price" placeholder="Mín" aria-label="Precio mínimo">
-                                    <input type="number" class="form-control" id="max-price" placeholder="Máx" aria-label="Precio máximo">
+                                    <input type="number" class="form-control" id="min-price" placeholder="Mínimo" aria-label="Precio mínimo">
+                                    <input type="number" class="form-control" id="max-price" placeholder="Máximo" aria-label="Precio máximo">
                                 </div>
                             </div>
 
                             <!-- Event Type Filter -->
                             <div class="mb-3">
-                                <label class="form-label">Tipos de Evento</label>
+                                <label class="form-label">¿Qué te gustaría hacer?</label>
                                 <div class="mb-2">
                                     <input type="text" class="form-control form-control-sm" id="type-search" 
-                                           placeholder="Buscar tipos..." aria-label="Buscar tipos de evento">
+                                           placeholder="Buscá un tipo de evento..." aria-label="Buscá un tipo de evento">
                                 </div>
                                 <div class="checkbox-container">
                                     <div class="form-check">
@@ -139,21 +143,21 @@
                                         <!-- Type checkboxes will be dynamically loaded here -->
                                     </div>
                                 </div>
-                                <small class="text-muted">Selecciona uno o más tipos de evento</small>
+                                <small class="text-muted">Elegí todos los que te interesen</small>
                             </div>
 
                             <!-- Distance Filter -->
                             <div class="mb-3">
-                                <label class="form-label">Filtrar por Distancia</label>
+                                <label class="form-label">¿Querés algo cerca?</label>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="enable-distance-filter">
                                     <label class="form-check-label" for="enable-distance-filter">
-                                        Activar filtro de distancia
+                                        Mostrar solo eventos cerca mío
                                     </label>
                                 </div>
                                 <div id="distance-controls" style="display: none;">
                                     <div class="mt-2">
-                                        <label class="form-label">Radio (km)</label>
+                                        <label class="form-label">¿Hasta cuántos km?</label>
                                         <input type="range" class="form-range" id="distance-radius" min="1" max="20" value="5">
                                         <div class="d-flex justify-content-between">
                                             <small>1 km</small>
@@ -163,12 +167,12 @@
                                     </div>
                                     <button class="btn btn-sm btn-outline-primary mt-2" id="select-location">
                                         <i class="bi bi-geo-alt me-1"></i>
-                                        Seleccionar Ubicación
+                                        Elegí tu ubicación
                                     </button>
                                     <div id="selected-location-info" class="mt-2" style="display: none;">
                                         <small class="text-muted">
                                             <i class="bi bi-geo-alt me-1"></i>
-                                            Ubicación: <span id="selected-lat-lng">No seleccionada</span>
+                                            Ubicación: <span id="selected-lat-lng">todavía no elegiste</span>
                                         </small>
                                     </div>
                                 </div>
@@ -177,7 +181,7 @@
                             <!-- Clear Filters Button -->
                             <button class="btn btn-outline-secondary w-100" id="clear-filters">
                                 <i class="bi bi-x-circle me-1"></i>
-                                Limpiar Filtros
+                                Limpiar todo
                             </button>
                         </div>
                     </div>
@@ -517,13 +521,13 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="error-event-title" class="form-label">Evento</label>
-                        <input type="text" class="form-control" id="error-event-title" readonly>
+                        <input type="text" class="form-control" id="error-event-title" name="evento" readonly>
                     </div>
                     
-                    <form id="report-error-form">
+                    <form id="report-error-form" action="https://formspree.io/f/xjkrqeva" method="POST">
                         <div class="mb-3">
                             <label for="error-type" class="form-label">Tipo de Error</label>
-                            <select class="form-select" id="error-type" required>
+                            <select class="form-select" id="error-type" name="tipo" required>
                                 <option value="">Selecciona el tipo de error</option>
                                 <option value="fecha-incorrecta">Fecha o hora incorrecta</option>
                                 <option value="precio-incorrecto">Precio incorrecto</option>
@@ -537,24 +541,25 @@
                         
                         <div class="mb-3">
                             <label for="error-description" class="form-label">Descripción del Error</label>
-                            <textarea class="form-control" id="error-description" rows="3" required 
+                            <textarea class="form-control" id="error-description" name="descripcion" rows="3" required 
                                       placeholder="Describe el error que encontraste..."></textarea>
                         </div>
                         
                         <div class="mb-3">
                             <label for="user-email" class="form-label">Tu Email (opcional)</label>
-                            <input type="email" class="form-control" id="user-email" 
+                            <input type="email" class="form-control" id="user-email" name="email" 
                                    placeholder="tu@email.com">
                             <small class="text-muted">Para que podamos contactarte si necesitamos más información</small>
                         </div>
+                        <button type="submit" class="btn btn-warning w-100">Enviar Reporte</button>
                     </form>
+                    <div id="report-success" class="alert alert-success mt-3" style="display:none;">
+                        <i class="bi bi-check-circle me-2"></i>
+                        ¡Gracias por tu reporte! Lo recibimos correctamente.
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-warning" id="submit-error-report">
-                        <i class="bi bi-send me-1"></i>
-                        Enviar Reporte
-                    </button>
                 </div>
             </div>
         </div>
@@ -716,11 +721,87 @@
         </div>
     </div>
 
+    <!-- Sugerencias Floating Button -->
+    <button id="suggestion-btn" type="button" class="btn btn-primary position-fixed d-flex align-items-center justify-content-center" style="bottom: 32px; right: 32px; z-index: 1060; border-radius: 50%; width: 56px; height: 56px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); padding: 0;">
+      <i class="bi bi-chat-dots" style="font-size: 2rem; line-height: 1;"></i>
+      <span class="visually-hidden">Sugerencias</span>
+    </button>
+
+    <!-- Sugerencias Modal -->
+    <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="suggestionModalLabel">
+              <i class="bi bi-chat-dots text-primary me-2"></i>
+              Sugerencias y Mensajes
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="suggestion-form" action="https://formspree.io/f/xjkrqeva" method="POST">
+              <div class="mb-3">
+                <label for="suggestion-email" class="form-label">Tu email (opcional)</label>
+                <input type="email" class="form-control" id="suggestion-email" name="email" placeholder="tu@email.com">
+              </div>
+              <div class="mb-3">
+                <label for="suggestion-type" class="form-label">Tipo de mensaje</label>
+                <select class="form-select" id="suggestion-type" name="tipo" required>
+                  <option value="sugerencia">Sugerencia</option>
+                  <option value="reporte">Reporte de error</option>
+                  <option value="consulta">Consulta</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="suggestion-message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="suggestion-message" name="message" rows="4" required placeholder="Escribe tu mensaje o sugerencia..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+            <div id="suggestion-success" class="alert alert-success mt-3" style="display:none;">
+              <i class="bi bi-check-circle me-2"></i>
+              ¡Gracias por tu mensaje! Lo recibimos correctamente.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Leaflet JS for maps -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <!-- Custom JS -->
+    <script>
+      // Setear fechas por default en los filtros de fecha ANTES de inicializar la app
+      document.addEventListener('DOMContentLoaded', function() {
+        window.app = new CulturalEventsApp();
+        // Esperar a que los filtros estén en el DOM y luego setear fechas y filtrar
+        setTimeout(function() {
+          var startDateInput = document.getElementById('start-date');
+          var endDateInput = document.getElementById('end-date');
+          if (startDateInput && endDateInput) {
+            var today = new Date();
+            var in7days = new Date();
+            in7days.setDate(today.getDate() + 7);
+            var yyyy = today.getFullYear();
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var dd = String(today.getDate()).padStart(2, '0');
+            var todayStr = yyyy + '-' + mm + '-' + dd;
+            var yyyy7 = in7days.getFullYear();
+            var mm7 = String(in7days.getMonth() + 1).padStart(2, '0');
+            var dd7 = String(in7days.getDate()).padStart(2, '0');
+            var in7daysStr = yyyy7 + '-' + mm7 + '-' + dd7;
+            startDateInput.value = todayStr;
+            endDateInput.value = in7daysStr;
+            if (window.app && typeof window.app.applyFilters === 'function') {
+              window.app.applyFilters();
+            }
+          }
+        }, 300);
+      });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
