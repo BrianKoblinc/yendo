@@ -777,7 +777,7 @@
       // Setear fechas por default en los filtros de fecha ANTES de inicializar la app
       document.addEventListener('DOMContentLoaded', function() {
         window.app = new CulturalEventsApp();
-        // Esperar a que los filtros estén en el DOM y luego setear fechas y filtrar
+        // Esperar a que los filtros estén en el DOM y luego setear fechas y filtrar (más tiempo por seguridad)
         setTimeout(function() {
           var startDateInput = document.getElementById('start-date');
           var endDateInput = document.getElementById('end-date');
@@ -799,7 +799,7 @@
               window.app.applyFilters();
             }
           }
-        }, 300);
+        }, 600);
       });
     </script>
     <script src="script.js"></script>

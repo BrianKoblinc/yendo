@@ -1177,6 +1177,12 @@ class CulturalEventsApp {
             return 0;
         });
 
+        // Log de diagnóstico: mostrar el orden de los eventos renderizados
+        console.log('Eventos a mostrar (ordenados):');
+        this.filteredEvents.forEach(ev => {
+            console.log(`- ${ev.title} | Fecha: ${ev.start_datetime} | Precio: ${ev.price} | Lugar: ${ev.placeName}`);
+        });
+
         this.filteredEvents.forEach((event, index) => {
             const eventCard = this.createEventCard(event);
             eventCard.style.animationDelay = `${index * 0.1}s`;
