@@ -301,7 +301,7 @@
     "lat": -34.5566591880843,
     "lng": -58.4522366079493,
     "icon": "ccquetren.jpeg",
-    "url": "https://www.alternativateatral.com/espacio1808-que-tren-club-cultural"
+    "url": "https://www.instagram.com/quetrenquetren/"
   },
   {
     "id": 39,
@@ -309,7 +309,7 @@
     "lat": -34.539963772859,
     "lng": -58.4640032032451,
     "icon": "ccconti.png",
-    "url": "conti.derhuman.jus.gov.ar/areas/agenda/actividades-v2.php"
+    "url": "http://conti.derhuman.jus.gov.ar/"
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "lat": -34.6249338747432,
     "lng": -58.4214861214258,
     "icon": "paramocultural.jpeg",
-    "url": "passline.com/sitio/6743864-cooperativa-de-trabajo-paramo-cultural-limitada"
+    "url": "https://www.instagram.com/paramo_cultural/"
   },
   {
     "id": 46,
@@ -365,7 +365,7 @@
     "lat": -34.5844548398959,
     "lng": -58.4698356744081,
     "icon": "clubdeseo.png",
-    "url": "linktr.ee/deseobsas"
+    "url": "https://www.instagram.com/deseobsas/"
   },
   {
     "id": 47,
@@ -466,10 +466,10 @@
   {
     "id": 59,
     "name": "Teatro Flores",
-    "lat": null,
-    "lng": null,
-    "icon": null,
-    "url": "https://www.teatroflores.com/cartelera.php"
+    "lat": -34.6323871,
+    "lng": -58.4772186,
+    "icon": "tflores.jpeg",
+    "url": "https://www.passline.com/sitio/teatroflores"
   },
   {
     "id": 60,

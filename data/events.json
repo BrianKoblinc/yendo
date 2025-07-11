@@ -407,7 +407,7 @@
   {
     "title": "XXXIII Congreso Internacional de Teatro Iberoamericano y Argentino - GETEA",
     "start_datetime": "2025-08-06T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Charla",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -416,7 +416,7 @@
   {
     "title": "JUAN PABLO ARREDONDO Y EL ENSAMBLE BRACELET EN URONDO CONTEMPORÁNEO VII",
     "start_datetime": "2025-08-08T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Musica",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -425,7 +425,7 @@
   {
     "title": "RICARDO GONZÁLEZ DORREGO Y SILVINA SUÁREZ JUNTO A ENSAMBLE NUNTEMPE EN URONDO CONTEMPORÁNEO VII",
     "start_datetime": "2025-08-22T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Musica",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -434,7 +434,7 @@
   {
     "title": "Milonga universitaria \"LA PAQUITA\"",
     "start_datetime": "2025-08-26T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Danza",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -443,7 +443,7 @@
   {
     "title": "Jornada de Perfornance y Narración en el  marco de la muestra \"Archivos de Infancia\"",
     "start_datetime": "2025-09-04T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -452,7 +452,7 @@
   {
     "title": "9° Co­lo­quio In­ter­na­cio­nal de Es­tudios so­bre Jue­gos de Rol \"Trans­gre­sión y Fic­ción: Va­lo­res de la Co­mu­ni­dad y Re­pre­sen­ta­cio­nes de su Vio­len­cia\"",
     "start_datetime": "2025-09-10T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Charla",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -461,7 +461,7 @@
   {
     "title": "CHARLA DE PAULA CARLINO",
     "start_datetime": "2025-09-19T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Charla",
     "url": "https://pacourondo.filo.uba.ar/eventos?page=1",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -470,7 +470,7 @@
   {
     "title": "MUESTRA \"BORDANDO TIERRA DEL FUEGO\"  de las Bordadoras de la Isla",
     "start_datetime": "2025-07-17T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Exhibicion",
     "url": "https://pacourondo.filo.uba.ar/eventos/muestra-bordando-tierra-del-fuego-de-las-bordadoras-de-la-isla",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -479,7 +479,7 @@
   {
     "title": "MUESTRA \"BORDANDO TIERRA DEL FUEGO\"  de las Bordadoras de la Isla",
     "start_datetime": "2025-07-17T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Exhibicion",
     "url": "https://pacourondo.filo.uba.ar/eventos",
     "source_website": "https://pacourondo.filo.uba.ar/eventos",
@@ -488,7 +488,7 @@
   {
     "title": "Erik Satie, el gymnopedista",
     "start_datetime": "2025-07-17T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Musica",
     "url": "https://www.bn.gov.ar/agenda-cultural?categoria=eventos",
     "source_website": "https://www.bn.gov.ar/agenda-cultural",
@@ -497,7 +497,7 @@
   {
     "title": "Erik Satie, el gymnopedista",
     "start_datetime": "2025-08-14T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Musica",
     "url": "https://www.bn.gov.ar/agenda-cultural?categoria=eventos",
     "source_website": "https://www.bn.gov.ar/agenda-cultural",
@@ -506,7 +506,7 @@
   {
     "title": "Paso a la Inmortalidad del General José de San Martín",
     "start_datetime": "2025-08-17T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Fiesta",
     "url": "https://www.bn.gov.ar/agenda-cultural?categoria=eventos",
     "source_website": "https://www.bn.gov.ar/agenda-cultural",
@@ -515,7 +515,7 @@
   {
     "title": "Erik Satie, el gymnopedista",
     "start_datetime": "2025-10-17T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "Musica",
     "url": "https://www.bn.gov.ar/agenda-cultural?categoria=eventos",
     "source_website": "https://www.bn.gov.ar/agenda-cultural",
@@ -1139,7 +1139,7 @@
     "price": 75000,
     "type": "Musica",
     "url": "https://www.teatroflores.com/evento.php?id=785",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -1148,7 +1148,7 @@
     "price": "80000.0",
     "type": "Musica",
     "url": "https://www.passline.com/eventos/the-living-tombstone-12-de-agosto-de-2025",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -1157,7 +1157,7 @@
     "price": "75000.0",
     "type": "Musica",
     "url": "https://www.passline.com/eventos/lagwagon-cigar-13-de-octubre-2025?srsltid=AfmBOoopkNonYIJJSk8ic1b3-CzF5qy_MAwes1g-l7kXEAWQDLdBaMEV",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -1166,13 +1166,13 @@
     "price": 80000,
     "type": "Teatro",
     "url": "https://www.teatroflores.com/evento.php?id=777",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
     "title": "Workshop - Seminario Intensivo de Ensamble Orquestal",
     "start_datetime": "2025-07-30T10:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLKeuf3MUTY/",
     "source_website": "https://www.instagram.com/elrojasuba/",
@@ -1181,7 +1181,7 @@
   {
     "title": "Workshop - Seminario Intensivo de Ensamble Orquestal",
     "start_datetime": "2025-08-13T10:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLKeuf3MUTY/",
     "source_website": "https://www.instagram.com/elrojasuba/",
@@ -1190,7 +1190,7 @@
   {
     "title": "Workshop - Seminario Intensivo de Ensamble Orquestal",
     "start_datetime": "2025-08-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLKeuf3MUTY/",
     "source_website": "https://www.instagram.com/elrojasuba/",
@@ -1550,7 +1550,7 @@
   {
     "title": "Lumière Quinteto",
     "start_datetime": "2025-07-18T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lumierequinteto/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1559,7 +1559,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1568,7 +1568,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1577,7 +1577,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1586,7 +1586,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1595,7 +1595,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1604,7 +1604,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1613,7 +1613,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1622,7 +1622,7 @@
   {
     "title": "Villarreal – Crom",
     "start_datetime": "2025-07-25T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/villarreal-crom/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1631,7 +1631,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-18T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1640,7 +1640,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-25T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1649,7 +1649,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1658,7 +1658,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-19T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1667,7 +1667,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-26T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1676,7 +1676,7 @@
   {
     "title": "Sívori4. Jazz instrumental contemporáneo",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/sivori4-jazz-instrumental-contemporaneo/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1685,7 +1685,7 @@
   {
     "title": "Vox Humana, de Guillermina Etkin",
     "start_datetime": "2025-07-26T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/vox-humana-8/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1694,7 +1694,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1703,7 +1703,7 @@
   {
     "title": "Dramaturgia de un pueblo propio. Taller a cargo de Franco Verdoia",
     "start_datetime": "2025-07-16T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/dramaturgia-de-un-pueblo-propio-taller-a-cargo-de-franco-verdoia-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1712,7 +1712,7 @@
   {
     "title": "EL PRINCIPE HEREDERO,de Leticia Gonzalez de Lellis y Osqui Guzman",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-principe-herederode-leticia-gonzalez-de-lellis-y-osqui-guzman-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1721,7 +1721,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-11/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1730,7 +1730,7 @@
   {
     "title": "EL PRINCIPE HEREDERO,de Leticia Gonzalez de Lellis y Osqui Guzman",
     "start_datetime": "2025-07-13T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-principe-heredero/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1739,7 +1739,7 @@
   {
     "title": "Vox Humana, de Guillermina Etkin",
     "start_datetime": "2025-07-18T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/vox-humana-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1748,7 +1748,7 @@
   {
     "title": "EL PRINCIPE HEREDERO,de Leticia Gonzalez de Lellis y Osqui Guzman",
     "start_datetime": "2025-07-20T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-principe-herederode-leticia-gonzalez-de-lellis-y-osqui-guzman/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1757,7 +1757,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-8/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1766,7 +1766,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-19T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion-de-ulises-bechis-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1775,7 +1775,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1784,7 +1784,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1793,7 +1793,7 @@
   {
     "title": "Vox Humana, de Guillermina Etkin",
     "start_datetime": "2025-07-25T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/vox-humana-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1802,7 +1802,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1811,7 +1811,7 @@
   {
     "title": "Melina Moguilevsky",
     "start_datetime": "2025-07-19T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/melina-moguilevsky/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1820,7 +1820,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-10/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1829,7 +1829,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1838,7 +1838,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1847,7 +1847,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1856,7 +1856,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-20T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1865,7 +1865,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1874,7 +1874,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-9/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1883,7 +1883,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1892,7 +1892,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1901,7 +1901,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1910,7 +1910,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-20T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion-de-ulises-bechis-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1919,7 +1919,7 @@
   {
     "title": "Vox Humana, de Guillermina Etkin",
     "start_datetime": "2025-07-19T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/vox-humana-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1928,7 +1928,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1937,7 +1937,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante-10/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1946,7 +1946,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-25T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1955,7 +1955,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-17T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1964,7 +1964,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1973,7 +1973,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1982,7 +1982,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -1991,7 +1991,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2000,7 +2000,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-26T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2009,7 +2009,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2018,7 +2018,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2027,7 +2027,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2036,7 +2036,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2045,7 +2045,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2054,7 +2054,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2063,7 +2063,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2072,7 +2072,7 @@
   {
     "title": "Dramaturgia de un pueblo propio. Taller a cargo de Franco Verdoia",
     "start_datetime": "2025-07-23T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/dramaturgia-de-un-pueblo-propio-taller-a-cargo-de-franco-verdoia-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2081,7 +2081,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2090,7 +2090,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2099,7 +2099,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2108,7 +2108,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2117,7 +2117,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2126,7 +2126,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2135,7 +2135,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-20T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion-de-ulises-bechis-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2144,7 +2144,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2153,7 +2153,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2162,7 +2162,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2171,7 +2171,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-5/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2180,7 +2180,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl-de-ulises-bechis-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2189,7 +2189,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-18T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2198,7 +2198,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-25T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2207,7 +2207,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2216,7 +2216,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-19T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2225,7 +2225,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-26T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-4/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2234,7 +2234,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2243,7 +2243,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2252,7 +2252,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2261,7 +2261,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-18T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion-de-ulises-bechis/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2270,7 +2270,7 @@
   {
     "title": "Contreras-Farb Cuarteto",
     "start_datetime": "2025-07-26T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/contreras-farb-cuarteto/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2279,7 +2279,7 @@
   {
     "title": "Vox Humana, de Guillermina Etkin",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/vox-humana-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2288,7 +2288,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-19T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2297,7 +2297,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2306,7 +2306,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-20T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2315,7 +2315,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-23T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -2324,7 +2324,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-27T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-6/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -3413,7 +3413,7 @@
   {
     "title": "Hidrocomunes",
     "start_datetime": "2025-07-16T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLsD665ubw7/",
     "source_website": "https://www.instagram.com/modernoba/",
@@ -3422,7 +3422,7 @@
   {
     "title": "Soñar un pastizal - Club de Restauradores Botánicos",
     "start_datetime": "2025-07-19T11:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLsD665ubw7/",
     "source_website": "https://www.instagram.com/modernoba/",
@@ -3431,7 +3431,7 @@
   {
     "title": "Investigaciones alrededor de la voz",
     "start_datetime": "2025-07-12T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLxNg-pSDMt/",
     "source_website": "https://www.instagram.com/modernoba/",
@@ -3440,7 +3440,7 @@
   {
     "title": "Fiel a la piel",
     "start_datetime": "2025-07-13T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLxNg-pSDMt/",
     "source_website": "https://www.instagram.com/modernoba/",
@@ -3449,7 +3449,7 @@
   {
     "title": "Fiel a la piel - Experiencia performática cuerpo-indumento",
     "start_datetime": "2025-07-13T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLfL6eOiKAP/",
     "source_website": "https://www.instagram.com/modernoba/",
@@ -3458,7 +3458,7 @@
   {
     "title": "REALIDAD CRONOTÓPICA - AGUSTÍN DI LUCIANO",
     "start_datetime": "2025-07-12T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLxZqjzxsIo/",
     "source_website": "https://www.instagram.com/museomarcolaboca/",
@@ -3467,7 +3467,7 @@
   {
     "title": "Toy Story 2",
     "start_datetime": "2025-07-25T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3476,7 +3476,7 @@
   {
     "title": "Toy Story 2",
     "start_datetime": "2025-08-09T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3485,7 +3485,7 @@
   {
     "title": "Toy Story 3",
     "start_datetime": "2025-07-11T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3494,7 +3494,7 @@
   {
     "title": "Toy Story 3",
     "start_datetime": "2025-07-26T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3503,7 +3503,7 @@
   {
     "title": "Toy Story 3",
     "start_datetime": "2025-08-22T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3512,7 +3512,7 @@
   {
     "title": "Toy Story 4",
     "start_datetime": "2025-07-12T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3521,7 +3521,7 @@
   {
     "title": "Toy Story 4",
     "start_datetime": "2025-08-01T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3530,7 +3530,7 @@
   {
     "title": "Toy Story 4",
     "start_datetime": "2025-08-23T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3539,7 +3539,7 @@
   {
     "title": "Toy Story Toons/Toy Story Specials",
     "start_datetime": "2025-07-18T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3548,7 +3548,7 @@
   {
     "title": "Toy Story Toons/Toy Story Specials",
     "start_datetime": "2025-08-02T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3557,7 +3557,7 @@
   {
     "title": "Forky Asks",
     "start_datetime": "2025-07-19T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3566,7 +3566,7 @@
   {
     "title": "Forky Asks",
     "start_datetime": "2025-08-08T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLiTDLaPr19/",
     "source_website": "https://www.instagram.com/bellasartesargentina/",
@@ -3575,7 +3575,7 @@
   {
     "title": "Sucesos del Arte - Carla Barbero y Claudio Iglesias",
     "start_datetime": "2025-07-15T18:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLzwUoKx8Oo/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3683,7 +3683,7 @@
   {
     "title": "Película argentina - Tencha Reina de Maruja Bustamante",
     "start_datetime": "2025-07-17T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3701,7 +3701,7 @@
   {
     "title": "Película argentina - Tencha Reina de Maruja Bustamante",
     "start_datetime": "2025-07-31T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3710,7 +3710,7 @@
   {
     "title": "Aventuras salvajes: Las películas de Carroll Ballard - Los lobos no lloran",
     "start_datetime": "2025-07-11T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3719,7 +3719,7 @@
   {
     "title": "Aventuras salvajes: Las películas de Carroll Ballard - Volando a casa",
     "start_datetime": "2025-07-18T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3728,7 +3728,7 @@
   {
     "title": "Aventuras salvajes: Las películas de Carroll Ballard - Duma",
     "start_datetime": "2025-07-25T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3737,7 +3737,7 @@
   {
     "title": "Sábados de superacción - Tú, mi conejo y yo de Frank Tashlin",
     "start_datetime": "2025-07-12T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3746,7 +3746,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 1",
     "start_datetime": "2025-07-26T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3755,7 +3755,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 1",
     "start_datetime": "2025-08-02T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3764,7 +3764,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 2",
     "start_datetime": "2025-07-19T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3773,7 +3773,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 2",
     "start_datetime": "2025-08-03T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3782,7 +3782,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 3",
     "start_datetime": "2025-07-13T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3791,7 +3791,7 @@
   {
     "title": "Retrospectiva Norman McLaren - Programa 3",
     "start_datetime": "2025-07-27T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -3800,7 +3800,7 @@
   {
     "title": "Película sorpresa",
     "start_datetime": "2025-07-20T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLZ_NmBxNtQ/",
     "source_website": "https://www.instagram.com/elrecoleta/",
@@ -4061,7 +4061,7 @@
   {
     "title": "CAMPAMENTO CON MAMÁ",
     "start_datetime": "2025-07-14T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLkpsu0spXU/",
     "source_website": "https://www.instagram.com/cc25demayo/",
@@ -4070,7 +4070,7 @@
   {
     "title": "El Troesma, de Marcelo Mazzarello",
     "start_datetime": "2025-07-12T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DL0H9_TsIsp/",
     "source_website": "https://www.instagram.com/cc25demayo/",
@@ -4079,7 +4079,7 @@
   {
     "title": "Encuentro Musical organizado por la Agrupación Urquiza Coral",
     "start_datetime": "2025-07-13T16:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DL0H9_TsIsp/",
     "source_website": "https://www.instagram.com/cc25demayo/",
@@ -4088,7 +4088,7 @@
   {
     "title": "Milonga del CC25",
     "start_datetime": "2025-07-13T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DL0H9_TsIsp/",
     "source_website": "https://www.instagram.com/cc25demayo/",
@@ -4097,7 +4097,7 @@
   {
     "title": "Gabriel Di Meglio - Visita Museo Histórico Nacional",
     "start_datetime": "2025-07-12T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLstBkjOkWa/",
     "source_website": "https://www.instagram.com/mhnarg/?hl=es",
@@ -5546,7 +5546,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-23T00:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5555,7 +5555,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-24T15:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5564,7 +5564,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-24T17:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5573,7 +5573,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-24T18:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5582,7 +5582,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-24T19:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5591,7 +5591,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-24T20:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5600,7 +5600,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-25T15:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5609,7 +5609,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-25T17:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5618,7 +5618,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-25T18:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5627,7 +5627,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-25T19:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5636,7 +5636,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-25T20:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5645,7 +5645,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-26T15:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5654,7 +5654,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-26T16:30:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5663,7 +5663,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-26T18:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5672,7 +5672,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-26T20:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5681,7 +5681,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-27T15:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5690,7 +5690,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-27T15:30:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5699,7 +5699,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-27T16:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5708,7 +5708,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-27T17:30:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5717,7 +5717,7 @@
   {
     "title": "Suiza Pop",
     "start_datetime": "2025-07-27T19:00:00-03:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/evento/suiza-pop/",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -5735,7 +5735,7 @@
   {
     "title": "Jaquelina Livieri - Matías Chapiro",
     "start_datetime": "2025-07-13T11:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLtFnILstZ5/",
     "source_website": "https://www.instagram.com/usinadelarte/?hl=es",
@@ -5744,7 +5744,7 @@
   {
     "title": "Agustina Herrera - Concierto de piano",
     "start_datetime": "2025-07-20T11:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLtFnILstZ5/",
     "source_website": "https://www.instagram.com/usinadelarte/?hl=es",
@@ -5753,7 +5753,7 @@
   {
     "title": "Instituto Superior de Arte - Teatro Colón",
     "start_datetime": "2025-07-27T11:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLtFnILstZ5/",
     "source_website": "https://www.instagram.com/usinadelarte/?hl=es",
@@ -5762,7 +5762,7 @@
   {
     "title": "Recital de música de cámara - Jaquelina Livieri y Matías Chapiro",
     "start_datetime": "2025-07-12T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DL0W9-4xehh/",
     "source_website": "https://www.instagram.com/usinadelarte/?hl=es",
@@ -5771,7 +5771,7 @@
   {
     "title": "Seminario Fundación IDA - Proa - Historia del diseño en Argentina",
     "start_datetime": "2025-07-17T10:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLnNTR2RNat/",
     "source_website": "https://www.instagram.com/fundacion_proa/",
@@ -5780,7 +5780,7 @@
   {
     "title": "Tercine - They Live",
     "start_datetime": "2025-07-11T20:30:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLvwmq4ptRs/",
     "source_website": "https://www.instagram.com/lacasadeteresa/?hl=en",
@@ -5816,7 +5816,7 @@
   {
     "title": "Ser Sur presenta El Jardín de los Presentes (Invisible)",
     "start_datetime": "2025-07-11T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DL0htkJtVop/",
     "source_website": "https://www.instagram.com/vuelaelpez/?hl=en",
@@ -5888,7 +5888,7 @@
   {
     "title": "REVIENTE RABIA FT",
     "start_datetime": "2025-07-13T00:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://www.instagram.com/p/DLx2LYtv2qh/",
     "source_website": "https://www.instagram.com/clubsocial911/?hl=en",
@@ -5927,7 +5927,7 @@
     "price": 20000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=800",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5936,7 +5936,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=803",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5945,7 +5945,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=794",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5954,7 +5954,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=802",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5963,7 +5963,7 @@
     "price": 20000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=797",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5972,7 +5972,7 @@
     "price": 15000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=798",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5981,7 +5981,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=795",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5990,7 +5990,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=796",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -5999,7 +5999,7 @@
     "price": 80000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=804",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -6008,7 +6008,7 @@
     "price": 15000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=801",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -6017,7 +6017,7 @@
     "price": 25000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=793",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -6026,7 +6026,7 @@
     "price": 80000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=799",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -6035,7 +6035,7 @@
     "price": 90000,
     "type": "",
     "url": "https://www.teatroflores.com/evento.php?id=805",
-    "source_website": "https://www.teatroflores.com/cartelera.php",
+    "source_website": "https://www.passline.com/sitio/teatroflores",
     "duplicated": "False"
   },
   {
@@ -6113,7 +6113,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-17T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6122,7 +6122,7 @@
   {
     "title": "MOLLY BLOOM, por Cristina Banegas",
     "start_datetime": "2025-07-24T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/molly-bloom-por-cristina-banegas-2/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6131,7 +6131,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-16T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6140,7 +6140,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-16T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6149,7 +6149,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-17T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6158,7 +6158,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-17T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6167,7 +6167,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-23T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6176,7 +6176,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-23T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6185,7 +6185,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-24T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6194,7 +6194,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-24T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6203,7 +6203,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-30T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6212,7 +6212,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-30T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6221,7 +6221,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-31T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6230,7 +6230,7 @@
   {
     "title": "«El zorro, el labrador y el buen hombre», de Pablo Gorlero",
     "start_datetime": "2025-07-31T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/el-zorro-el-labrador-y-el-buen-hombre-de-pablo-gorlero-7/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6239,7 +6239,7 @@
   {
     "title": "LO TEJIÓ LA JUANA, de Ignacio Sánchez Mestre",
     "start_datetime": "2025-07-11T20:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/lo-tejio-la-juana-de-ignacio-sanchez-mestre/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6248,7 +6248,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-25T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6257,7 +6257,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-26T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6266,7 +6266,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-27T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6275,7 +6275,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-25T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6284,7 +6284,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-26T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6293,7 +6293,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-07-27T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6302,7 +6302,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-01T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6311,7 +6311,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-02T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6320,7 +6320,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-01T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6329,7 +6329,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-02T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6338,7 +6338,7 @@
   {
     "title": "«Tiburón XXL», de Ulises Bechis",
     "start_datetime": "2025-08-03T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/tiburon-xxl/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6347,7 +6347,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-18T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6356,7 +6356,7 @@
   {
     "title": "«Agua fantasma, la invasión», de Ulises Bechis",
     "start_datetime": "2025-07-19T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/agua-fantasma-la-invasion/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6365,7 +6365,7 @@
   {
     "title": "Parece ser, de Iván Haidar",
     "start_datetime": "2025-07-24T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/parece-ser-de-ivan-haidar-3/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6374,7 +6374,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-11T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6383,7 +6383,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-11T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6392,7 +6392,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-12T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6401,7 +6401,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-12T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6410,7 +6410,7 @@
   {
     "title": "Anida y El Circo Flotante",
     "start_datetime": "2025-07-13T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://centroculturalborges.gob.ar/events/anida-y-el-circo-flotante/",
     "source_website": "https://centroculturalborges.gob.ar/agenda/",
@@ -6419,7 +6419,7 @@
   {
     "title": "Suiza Pop - Cine: Sauvages",
     "start_datetime": "2025-07-23T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/eventos/lista/?ical=1",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -6428,7 +6428,7 @@
   {
     "title": "Suiza Pop - Taller: ¡Creá tu propio videojuego de carreras!",
     "start_datetime": "2025-07-24T15:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/eventos/lista/?ical=1",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -6437,7 +6437,7 @@
   {
     "title": "Suiza Pop - Taller de libros imaginados con Myriam Gämperli y TitiHoon",
     "start_datetime": "2025-07-24T17:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/eventos/lista/?ical=1",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -6446,7 +6446,7 @@
   {
     "title": "Suiza Pop - Cine: Programa de cortos Hélium Vol. 1",
     "start_datetime": "2025-07-24T18:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/eventos/lista/?ical=1",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
@@ -6455,7 +6455,7 @@
   {
     "title": "Suiza Pop - Cine: La vida de Calabacín",
     "start_datetime": "2025-07-24T19:00:00",
-    "price": 0,
+    "price": "0",
     "type": "",
     "url": "https://elculturalsanmartin.ar/eventos/lista/?ical=1",
     "source_website": "https://elculturalsanmartin.ar/eventos/",
